@@ -1,0 +1,525 @@
+{
+  "Hotkey": "Alt \u002B Space",
+  "OpenResultModifiers": "Alt",
+  "ColorScheme": "Dark",
+  "ShowOpenResultHotkey": true,
+  "WindowSize": 680,
+  "PreviewHotkey": "F1",
+  "AutoCompleteHotkey": "Ctrl \u002B Tab",
+  "AutoCompleteHotkey2": "Tab",
+  "SelectNextItemHotkey": "",
+  "SelectNextItemHotkey2": "",
+  "SelectPrevItemHotkey": "Shift \u002B Tab",
+  "SelectPrevItemHotkey2": "",
+  "SelectNextPageHotkey": "PageUp",
+  "SelectPrevPageHotkey": "PageDown",
+  "OpenContextMenuHotkey": "Ctrl\u002BO",
+  "SettingWindowHotkey": "Ctrl\u002BI",
+  "OpenHistoryHotkey": "Ctrl\u002BH",
+  "CycleHistoryUpHotkey": "Alt \u002B Up",
+  "CycleHistoryDownHotkey": "Alt \u002B Down",
+  "DialogJumpHotkey": "Alt \u002B G",
+  "Language": "system",
+  "Theme": "Dracula",
+  "UseDropShadowEffect": true,
+  "BackdropType": 2,
+  "ReleaseNotesVersion": "2.1.2",
+  "WindowHeightSize": 34,
+  "ItemHeightSize": 46,
+  "QueryBoxFontSize": 20,
+  "ResultItemFontSize": 16,
+  "ResultSubItemFontSize": 13,
+  "QueryBoxFont": "JetBrainsMono NFP",
+  "QueryBoxFontStyle": "Normal",
+  "QueryBoxFontWeight": "SemiBold",
+  "QueryBoxFontStretch": "Normal",
+  "ResultFont": "JetBrainsMono NFM",
+  "ResultFontStyle": "Normal",
+  "ResultFontWeight": "Normal",
+  "ResultFontStretch": "Normal",
+  "ResultSubFont": "Segoe UI",
+  "ResultSubFontStyle": "Normal",
+  "ResultSubFontWeight": "Normal",
+  "ResultSubFontStretch": "Normal",
+  "UseGlyphIcons": true,
+  "UseAnimation": true,
+  "UseSound": false,
+  "SoundVolume": 50,
+  "ShowBadges": false,
+  "ShowBadgesGlobalOnly": false,
+  "SettingWindowFont": "JetBrainsMonoNL NFP",
+  "UseClock": true,
+  "UseDate": false,
+  "TimeFormat": "hh:mm tt",
+  "DateFormat": "MM\u0027/\u0027dd ddd",
+  "FirstLaunch": false,
+  "SettingWindowWidth": 2062.4,
+  "SettingWindowHeight": 1128,
+  "SettingWindowTop": 600,
+  "SettingWindowLeft": 1028.8,
+  "SettingWindowState": 2,
+  "ShowPlaceholder": true,
+  "PlaceholderText": "Windows Spotlight ",
+  "ShowHomePage": false,
+  "ShowHistoryResultsForHomePage": false,
+  "MaxHistoryResultsToShowForHomePage": 5,
+  "AutoRestartAfterChanging": false,
+  "ShowUnknownSourceWarning": false,
+  "AutoUpdatePlugins": true,
+  "CustomExplorerIndex": 4,
+  "CustomExplorerList": [
+    {
+      "Name": "Explorer",
+      "Path": "explorer",
+      "FileArgument": "/select, \u0022%f\u0022",
+      "DirectoryArgument": "\u0022%d\u0022",
+      "Editable": false
+    },
+    {
+      "Name": "Total Commander",
+      "Path": "C:\\Program Files\\totalcmd\\TOTALCMD64.exe",
+      "FileArgument": "/O /A /S /T \u0022%f\u0022",
+      "DirectoryArgument": "/O /A /S /T \u0022%d\u0022",
+      "Editable": true
+    },
+    {
+      "Name": "Directory Opus",
+      "Path": "C:\\Program Files\\GPSoftware\\Directory Opus\\dopusrt.exe",
+      "FileArgument": "/cmd Go \u0022%f\u0022 NEW",
+      "DirectoryArgument": "/cmd Go \u0022%d\u0022 NEW",
+      "Editable": true
+    },
+    {
+      "Name": "Files",
+      "Path": "Files-Stable",
+      "FileArgument": "-select \u0022%f\u0022",
+      "DirectoryArgument": "\u0022%d\u0022",
+      "Editable": true
+    },
+    {
+      "Name": "File Pilot",
+      "Path": "C:\\Users\\Md. Nadim Mahmud\\AppData\\Local\\Voidstar\\FilePilot\\FPilot.exe",
+      "FileArgument": "/T /O /S \u0022%f\u0022",
+      "DirectoryArgument": "/T /O /S \u0022%d\u0022",
+      "Editable": true
+    }
+  ],
+  "CustomBrowserIndex": 4,
+  "CustomBrowserList": [
+    {
+      "Name": "Default",
+      "Path": "*",
+      "PrivateArg": "",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "Google Chrome",
+      "Path": "chrome",
+      "PrivateArg": "-incognito",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "Mozilla Firefox",
+      "Path": "firefox",
+      "PrivateArg": "-private",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "MS Edge",
+      "Path": "msedge",
+      "PrivateArg": "-inPrivate",
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": false
+    },
+    {
+      "Name": "Vivaldi",
+      "Path": "C:\\Users\\Md. Nadim Mahmud\\AppData\\Local\\Vivaldi\\Application\\vivaldi.exe",
+      "PrivateArg": null,
+      "EnablePrivate": false,
+      "OpenInTab": true,
+      "Editable": true
+    }
+  ],
+  "EnableDialogJump": true,
+  "AutoDialogJump": false,
+  "ShowDialogJumpWindow": false,
+  "DialogJumpWindowPosition": "UnderDialog",
+  "DialogJumpResultBehaviour": "LeftClick",
+  "DialogJumpFileResultBehaviour": "FullPath",
+  "LogLevel": "INFO",
+  "ShouldUsePinyin": true,
+  "UseDoublePinyin": false,
+  "DoublePinyinSchema": "XiaoHe",
+  "AlwaysPreview": false,
+  "AlwaysStartEn": false,
+  "QuerySearchPrecision": "Regular",
+  "AutoUpdates": true,
+  "WindowLeft": 676,
+  "WindowTop": 374,
+  "PreviousScreenWidth": 0,
+  "PreviousScreenHeight": 0,
+  "PreviousDpiX": 0,
+  "PreviousDpiY": 0,
+  "CustomWindowLeft": 845,
+  "CustomWindowTop": 420,
+  "KeepMaxResults": false,
+  "MaxResultsToShow": 5,
+  "ActivateTimes": 946,
+  "CustomPluginHotkeys": [],
+  "CustomShortcuts": [],
+  "DontPromptUpdateMsg": false,
+  "EnableUpdateLog": false,
+  "StartFlowLauncherOnSystemStartup": true,
+  "UseLogonTaskForStartup": false,
+  "HideOnStartup": true,
+  "HideNotifyIcon": false,
+  "LeaveCmdOpen": false,
+  "HideWhenDeactivated": true,
+  "ShowTaskbarWhenInvoked": false,
+  "ShowAtTopmost": true,
+  "SearchQueryResultsWithDelay": false,
+  "SearchDelayTime": 150,
+  "SearchWindowScreen": "Cursor",
+  "SearchWindowAlign": "Custom",
+  "CustomScreenNumber": 1,
+  "IgnoreHotkeysOnFullscreen": true,
+  "Proxy": {
+    "Enabled": false,
+    "Server": null,
+    "Port": 0,
+    "UserName": null,
+    "Password": null
+  },
+  "LastQueryMode": "Empty",
+  "AnimationSpeed": "Medium",
+  "CustomAnimationLength": 360,
+  "PluginSettings": {
+    "PythonExecutablePath": "C:\\Users\\Md. Nadim Mahmud\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "NodeExecutablePath": "C:\\Users\\Md. Nadim Mahmud\\AppData\\Roaming\\FlowLauncher\\Environments\\Node.js\\Node-v16.18.0\\node-v16.18.0-win-x64\\node.exe",
+    "Plugins": {
+      "CEA0FDFC6D3B4085823D60DC76F28855": {
+        "ID": "CEA0FDFC6D3B4085823D60DC76F28855",
+        "Name": "Calculator",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "572be03c74c642baae319fc283e561a8": {
+        "ID": "572be03c74c642baae319fc283e561a8",
+        "Name": "Explorer",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "doc:",
+          "*",
+          "*",
+          "*",
+          "pth",
+          "es",
+          "fldr",
+          "fl",
+          "qa"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "6A122269676E40EB86EB543B945932B9": {
+        "ID": "6A122269676E40EB86EB543B945932B9",
+        "Name": "Plugin Indicator",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "?"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "9f8f9b14-2518-4907-b211-35ab6290dee7": {
+        "ID": "9f8f9b14-2518-4907-b211-35ab6290dee7",
+        "Name": "Plugins Manager",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "pm"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "b64d0a79-329a-48b0-b53f-d658318a1bf6": {
+        "ID": "b64d0a79-329a-48b0-b53f-d658318a1bf6",
+        "Name": "Process Killer",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "kill"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "791FC278BA414111B8D1886DFE447410": {
+        "ID": "791FC278BA414111B8D1886DFE447410",
+        "Name": "Program",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "*"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "CEA08895D2544B019B2E9C5009600DF4": {
+        "ID": "CEA08895D2544B019B2E9C5009600DF4",
+        "Name": "System Commands",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "sys"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "565B73353DBF4806919830B9202EE3BF": {
+        "ID": "565B73353DBF4806919830B9202EE3BF",
+        "Name": "Web Searches",
+        "Version": "2.1.1",
+        "ActionKeywords": [
+          "sc",
+          "wiki",
+          "findicon",
+          "twitter",
+          "maps",
+          "gist",
+          "gmail",
+          "drive",
+          "wolframalpha",
+          "stackoverflow",
+          "lucky",
+          "image",
+          "bing",
+          "yahoo",
+          "bd",
+          "yt",
+          "*",
+          "gh",
+          "fb",
+          "ddg",
+          "gt"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": 450,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "ddd30a33-c565-4dcf-9558-7bc5bb433e13": {
+        "ID": "ddd30a33-c565-4dcf-9558-7bc5bb433e13",
+        "Name": "Vim",
+        "Version": "0.0.2",
+        "ActionKeywords": [
+          "vim"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "3458F01618974683B339D53528A78573": {
+        "ID": "3458F01618974683B339D53528A78573",
+        "Name": "Azan",
+        "Version": "3.2.0",
+        "ActionKeywords": [
+          "azan"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "9B36CE6181FC47FBB597AA2C29CD9B0A": {
+        "ID": "9B36CE6181FC47FBB597AA2C29CD9B0A",
+        "Name": "Colors",
+        "Version": "3.0.0",
+        "ActionKeywords": [
+          "col"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "FF2C31D6A47348FFB9ED4EB26F6794E2": {
+        "ID": "FF2C31D6A47348FFB9ED4EB26F6794E2",
+        "Name": "Fancy Emoji",
+        "Version": "1.0.9",
+        "ActionKeywords": [
+          "e"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "3AF7F9DD4367439AA4730641D99EDA21": {
+        "ID": "3AF7F9DD4367439AA4730641D99EDA21",
+        "Name": "FlowTrumpet",
+        "Version": "1.1.0",
+        "ActionKeywords": [
+          "vol"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "42DE0794627A48B2847E6FDF29DD5561": {
+        "ID": "42DE0794627A48B2847E6FDF29DD5561",
+        "Name": "FlowYouTube",
+        "Version": "2.1.0",
+        "ActionKeywords": [
+          "yt"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "B348C4F7608746DAA8B519F223CFC8FB": {
+        "ID": "B348C4F7608746DAA8B519F223CFC8FB",
+        "Name": "Kaomoji",
+        "Version": "1.0.1",
+        "ActionKeywords": [
+          "ek"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "251B44B4162E470B9167A2954DAEBC6E": {
+        "ID": "251B44B4162E470B9167A2954DAEBC6E",
+        "Name": "Mock",
+        "Version": "1.1.0",
+        "ActionKeywords": [
+          "mock"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "19f6bd38-d732-4d94-9283-e459b6ce0a5c": {
+        "ID": "19f6bd38-d732-4d94-9283-e459b6ce0a5c",
+        "Name": "RemovePaywall",
+        "Version": "1.0.0",
+        "ActionKeywords": [
+          "rp"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "9E4A2B3C-5F6D-4E8A-9B1C-2D3E4F5A6B7C": {
+        "ID": "9E4A2B3C-5F6D-4E8A-9B1C-2D3E4F5A6B7C",
+        "Name": "Speed Test",
+        "Version": "1.2.2",
+        "ActionKeywords": [
+          "st"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "2DC588F9-98DB-4E8E-BBE0-B4EFF4286E40": {
+        "ID": "2DC588F9-98DB-4E8E-BBE0-B4EFF4286E40",
+        "Name": "Temp Cleaner",
+        "Version": "1.1.0",
+        "ActionKeywords": [
+          "tmp"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "129ae526-b5c7-4ba5-9f94-d60dffd68b98": {
+        "ID": "129ae526-b5c7-4ba5-9f94-d60dffd68b98",
+        "Name": "Ollama",
+        "Version": "1.1.3",
+        "ActionKeywords": [
+          "ol"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "42f63e8d-3d3d-4b4b-9e91-c6094bf240ec": {
+        "ID": "42f63e8d-3d3d-4b4b-9e91-c6094bf240ec",
+        "Name": "Windows Services Manager",
+        "Version": "1.1.1",
+        "ActionKeywords": [
+          "svc"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "EC779402-4FF2-496D-862E-C2A14E1767C8": {
+        "ID": "EC779402-4FF2-496D-862E-C2A14E1767C8",
+        "Name": "Zoxide",
+        "Version": "1.0.0",
+        "ActionKeywords": [
+          "cd"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "0ECADE17459B49F587BF81DC3A125110": {
+        "ID": "0ECADE17459B49F587BF81DC3A125110",
+        "Name": "Browser Bookmarks",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "b"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      },
+      "5043CETYU6A748679OPA02D27D99677A": {
+        "ID": "5043CETYU6A748679OPA02D27D99677A",
+        "Name": "Windows Settings",
+        "Version": "2.1.2",
+        "ActionKeywords": [
+          "s"
+        ],
+        "Priority": 0,
+        "SearchDelayTime": null,
+        "Disabled": false,
+        "HomeDisabled": false
+      }
+    }
+  }
+}

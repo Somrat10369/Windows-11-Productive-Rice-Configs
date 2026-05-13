@@ -1,0 +1,49 @@
+{
+  "version": "2026.422.1301",
+  "developerMode": true,
+  "showBlockedCount": false,
+  "rulesets": [
+    "+adguard-spyware-url"
+  ],
+  "filteringModes": {
+    "none": [
+      "facebook",
+      "www.effectivegatecpm.com",
+      "testmy.net",
+      "bookishbd.com",
+      "www.desktophut.com",
+      "www.telekiit24.com",
+      "www.speedtest.net",
+      "cuttlinks.com",
+      "www.rokomari.com",
+      "m.made-in-china.com",
+      "accounts.google.com",
+      "qxbroker.com",
+      "video.cs50.io",
+      "mygp.grameenphone.com",
+      "site.sharclub.in",
+      "mandrillapp.com",
+      "vercel.com",
+      "python.plainenglish.io",
+      "www.ojrq.net",
+      "hub.bids.mybinder.org",
+      "www.curseforge.com",
+      "web.archive.org",
+      "www.typingbolt.com",
+      "userstyles.org",
+      "www.mulboi.com",
+      "www.ubuy.com.bd",
+      "www.vinstartheme.com",
+      "my.noip.com",
+      "docs.worldmonitor.app",
+      "fitgirl-repacks.website"
+    ],
+    "basic": [
+      "www.reddit.com"
+    ],
+    "optimal": [
+      "all-urls"
+    ],
+    "complete": []
+  }
+}

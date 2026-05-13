@@ -1,0 +1,13 @@
+theme: Surface
+styleConstants:
+  - ''
+controlStyles:
+  - target: ''
+    styles:
+      - ''
+themeResourceVariables:
+  - ''
+xamlDiagnosticsHandling: alert
+resourceVariables:
+  - variableKey: ''
+    value: ''

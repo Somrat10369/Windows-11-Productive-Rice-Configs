@@ -1,0 +1,327 @@
+# ============================================================
+# GlazeWM Configuration
+# Minimal, ergonomic and keyboard-driven workflow
+# ============================================================
+
+general:
+  # ----------------------------------------------------------
+  # Programs that launch automatically when GlazeWM starts
+  # ----------------------------------------------------------
+  startup_commands:
+    - 'shell-exec gat-gwm'
+    - 'shell-exec C:/Users/**your username**/Downloads/Programs/tacky-borders.exe'
+    - 'shell-exec C:/Users/**your username**/Desktop/dock_.lnk'
+    - 'shell-exec C:/Users/**your username**/Desktop/yasb.lnk'
+    - 'shell-exec C:/Users/**your username**/Downloads/Compressed/crosshair-y-win32-x64/crosshair-y-win32-x64/crosshair-y.exe'
+
+  # Commands before WM shutdown
+  shutdown_commands: []
+
+  # Commands when config reloads
+  config_reload_commands: []
+
+  # Disable focus following cursor (keyboard-driven workflow)
+  focus_follows_cursor: true
+
+  # Smooth window animations
+  window_animations: true
+
+  # Prevent workspace toggling behavior
+  toggle_workspace_on_refocus: false
+
+  # Cursor jumping improves usability when switching windows
+  cursor_jump:
+    enabled: true
+    trigger: 'window_focus'
+
+  # Hide windows using cloak method (best compatibility)
+  hide_method: 'cloak'
+
+# ============================================================
+# Window Gaps (visual spacing between windows)
+# ============================================================
+
+gaps:
+  scale_with_dpi: true
+
+  # Space between windows
+  inner_gap: '10px'
+
+  # Space between windows and monitor edge
+  outer_gap:
+    top: '8px'
+    right: '8px'
+    bottom: '8px'
+    left: '8px'
+
+  # Larger gaps when only one window exists
+  single_window_outer_gap:
+    top: '8px'
+    right: '8px'
+    bottom: '8px'
+    left: '8px'
+
+# ============================================================
+# Window Visual Effects
+# ============================================================
+
+window_effects:
+  focused_window:
+    border:
+      enabled: true
+      width: 3px
+      color: '#bd93f9'
+
+  corner_style:
+    enabled: true
+    style: 'rounded'
+
+  transparency:
+    enabled: false
+    opacity: '100%'
+
+  other_windows:
+    border:
+      enabled: true
+      color: '#696969'
+
+    corner_style:
+      enabled: true
+      style: 'rounded'
+
+    transparency:
+      enabled: false
+      opacity: '100%'
+
+# ============================================================
+# Default Window Behavior
+# ============================================================
+
+window_behavior:
+  # Default window layout
+  initial_state: 'tiling'
+
+  state_defaults:
+    floating:
+      centered: true
+      shown_on_top: true
+
+    fullscreen:
+      maximized: false
+      shown_on_top: false
+
+# ============================================================
+# Workspaces
+# ============================================================
+
+workspaces:
+  - name: '1'
+  - name: '2'
+  - name: '3'
+  - name: '4'
+  - name: '5'
+  - name: '6'
+  - name: '7'
+  - name: '8'
+  - name: '9'
+
+# ============================================================
+# Window Rules
+# Ignore special windows that should not tile
+# ============================================================
+
+window_rules:
+  - commands: ['ignore']
+    match:
+      # Ignore Zebar
+      - window_process: { equals: 'zebar' }
+
+      # Browser picture-in-picture
+      - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
+
+      # PowerToys overlays
+      - window_process: { equals: 'PowerToys' }
+
+      # Windows system dialogs
+      - window_class: { equals: '#32770' }
+
+      # Task Manager and screenshot tools
+      - window_process: { equals: '/Taskmgr|ScreenClippingHost/' }
+
+      # Run dialog
+      - window_title: { equals: 'Run' }
+
+# ============================================================
+# Keybindings
+# ============================================================
+
+keybindings:
+  # ----------------------------------------------------------
+  # Window Focus
+  # ----------------------------------------------------------
+
+  # Cycle focus through windows
+  - commands: ['wm-cycle-focus']
+    bindings: ['alt+shift+space']
+
+  # ----------------------------------------------------------
+  # Window Controls
+  # ----------------------------------------------------------
+
+  # Minimize window
+  - commands: ['toggle-minimized']
+    bindings: ['alt+z']
+
+  # Maximize window
+  - commands: ['toggle-fullscreen']
+    bindings: ['alt+c']
+
+  # Close window
+  - commands: ['close']
+    bindings: ['alt+x']
+
+  # ----------------------------------------------------------
+  # Window Resize (Directional)
+  # ----------------------------------------------------------
+
+  # Resize window UP
+  - commands: ['resize --height +1%']
+    bindings: ['alt+i']
+
+  # Resize window LEFT
+  - commands: ['resize --width +1%']
+    bindings: ['alt+j']
+
+  # Resize window DOWN
+  - commands: ['resize --height -1%']
+    bindings: ['alt+k']
+
+  # Resize window RIGHT
+  - commands: ['resize --width -1%']
+    bindings: ['alt+l']
+  # ----------------------------------------------------------
+  # Focus window in direction (Arrow keys)
+  # ----------------------------------------------------------
+
+  - commands: ['focus --direction left']
+    bindings: ['alt+left']
+
+  - commands: ['focus --direction right']
+    bindings: ['alt+right']
+
+  - commands: ['focus --direction up']
+    bindings: ['alt+up']
+
+  - commands: ['focus --direction down']
+    bindings: ['alt+down']
+  # ----------------------------------------------------------
+  # Move window in direction
+  # ----------------------------------------------------------
+
+  - commands: ['move --direction left']
+    bindings: ['alt+shift+left']
+
+  - commands: ['move --direction right']
+    bindings: ['alt+shift+right']
+
+  - commands: ['move --direction up']
+    bindings: ['alt+shift+up']
+
+  - commands: ['move --direction down']
+    bindings: ['alt+shift+down']
+
+  # ----------------------------------------------------------
+  # Terminal Launcher
+  # ----------------------------------------------------------
+
+  - commands: ['shell-exec wt']
+    bindings: ['alt+shift+enter']
+
+  # ----------------------------------------------------------
+  # Launch MyDockFinder
+  # ----------------------------------------------------------
+  - commands:
+      [
+        'shell-exec cmd /c start "" "C:/Users/**your username**/Downloads/Programs/MacOS_Dock_TD/MyDockFinder/Dock_64.exe"',
+      ]
+    bindings: ['alt+shift+home']
+
+  # ----------------------------------------------------------
+  # Launch Task Manager
+  # ----------------------------------------------------------
+  - commands: ['shell-exec taskmgr']
+    bindings: ['alt+shift+end']
+
+  # ----------------------------------------------------------
+  # Workspace Navigation
+  # ----------------------------------------------------------
+
+  - commands: ['focus --workspace 1']
+    bindings: ['alt+1']
+
+  - commands: ['focus --workspace 2']
+    bindings: ['alt+2']
+
+  - commands: ['focus --workspace 3']
+    bindings: ['alt+3']
+
+  - commands: ['focus --workspace 4']
+    bindings: ['alt+4']
+
+  - commands: ['focus --workspace 5']
+    bindings: ['alt+5']
+
+  - commands: ['focus --workspace 6']
+    bindings: ['alt+6']
+
+  - commands: ['focus --workspace 7']
+    bindings: ['alt+7']
+
+  - commands: ['focus --workspace 8']
+    bindings: ['alt+8']
+
+  - commands: ['focus --workspace 9']
+    bindings: ['alt+9']
+
+  # ----------------------------------------------------------
+  # Move Window to Workspace
+  # ----------------------------------------------------------
+
+  - commands: ['move --workspace 1']
+    bindings: ['alt+shift+1']
+
+  - commands: ['move --workspace 2']
+    bindings: ['alt+shift+2']
+
+  - commands: ['move --workspace 3']
+    bindings: ['alt+shift+3']
+
+  - commands: ['move --workspace 4']
+    bindings: ['alt+shift+4']
+
+  - commands: ['move --workspace 5']
+    bindings: ['alt+shift+5']
+
+  - commands: ['move --workspace 6']
+    bindings: ['alt+shift+6']
+
+  - commands: ['move --workspace 7']
+    bindings: ['alt+shift+7']
+
+  - commands: ['move --workspace 8']
+    bindings: ['alt+shift+8']
+
+  - commands: ['move --workspace 9']
+    bindings: ['alt+shift+9']
+
+  # ----------------------------------------------------------
+  # WM Management
+  # ----------------------------------------------------------
+
+  # Reload config
+  - commands: ['wm-reload-config']
+    bindings: ['alt+shift+r']
+
+  # Exit GlazeWM safely
+  - commands: ['wm-exit']
+    bindings: ['alt+shift+e']

@@ -1,0 +1,8 @@
+iconTheme: Papirus Dracula|themes/icons/niivu/Papirus%20Dracula.zip
+themePaths:
+  - ''
+redirectionResourcePaths:
+  - original: ''
+    redirect: ''
+allResourceRedirect: 0
+themeFolder: ''

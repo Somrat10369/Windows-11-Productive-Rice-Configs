@@ -1,0 +1,4 @@
+animationDuration: 320
+fadeDuration: 80
+timerInterval: 6
+translucentWindowsCompat: 0

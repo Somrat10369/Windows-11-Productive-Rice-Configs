@@ -1,0 +1,10 @@
+/* Power button - red style */
+#yasb-bar-power {
+    background-color: #ff4444 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+#yasb-bar-power:hover {
+    background-color: #ff6666 !important;
+}

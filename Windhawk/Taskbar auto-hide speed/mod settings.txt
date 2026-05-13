@@ -1,0 +1,4 @@
+showSpeedup: 200
+hideSpeedup: 200
+frameRate: 120
+oldTaskbarOnWin11: 0

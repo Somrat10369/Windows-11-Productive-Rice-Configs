@@ -1,0 +1,101 @@
+/* Top 10 Popular Color Themes */
+
+/* 1. Monokai */
+.theme-monokai {
+    --bg-primary: #272822;
+    --bg-secondary: #1e1f1c;
+    --text-primary: #f8f8f2;
+    --text-secondary: #a9b7c6;
+    --accent: #a6e22e;
+    --border: #3e3d32;
+}
+
+/* 2. Nord */
+.theme-nord {
+    --bg-primary: #2e3440;
+    --bg-secondary: #242933;
+    --text-primary: #eceff4;
+    --text-secondary: #d8dee9;
+    --accent: #88c0d0;
+    --border: #323745;
+}
+
+/* 3. Oceanic Next */
+.theme-oceanic {
+    --bg-primary: #1b2b34;
+    --bg-secondary: #233440;
+    --text-primary: #d8dee9;
+    --text-secondary: #98a3ad;
+    --accent: #5fb3b3;
+    --border: #2c414f;
+}
+
+/* 4. Dracula */
+.theme-dracula {
+    --bg-primary: #282a36;
+    --bg-secondary: #191a21;
+    --text-primary: #f8f8f2;
+    --text-secondary: #a9b1d6;
+    --accent: #ff79c6;
+    --border: #44475a;
+}
+
+/* 5. Gruvbox */
+.theme-gruvbox {
+    --bg-primary: #282828;
+    --bg-secondary: #1d2021;
+    --text-primary: #ebdbb2;
+    --text-secondary: #d5c4a1;
+    --accent: #fe8019;
+    --border: #3c3836;
+}
+
+/* 6. Everforest Light */
+.theme-everforest-light {
+    --bg-primary: #e6e9d8;
+    --bg-secondary: #dcdac6;
+    --text-primary: #4c5936;
+    --text-secondary: #5d7548;
+    --accent: #b6c856;
+    --border: #c6caac;
+}
+
+/* 7. Catppuccin Latte */
+.theme-catppuccin-latte {
+    --bg-primary: #ecd8b5;
+    --bg-secondary: #e0ccba;
+    --text-primary: #4c4f69;
+    --text-secondary: #6c6f85;
+    --accent: #ff8585;
+    --border: #d8c4a6;
+}
+
+/* 8. Palenight */
+.theme-palenight {
+    --bg-primary: #292d3e;
+    --bg-secondary: #1f2335;
+    --text-primary: #c0c5ce;
+    --text-secondary: #838bb7;
+    --accent: #f07172;
+    --border: #393f56;
+}
+
+/* 9. Solarized Light */
+.theme-solarized-light {
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #eee8d5;
+    --text-primary: #657b83;
+    --text-secondary: #93a1a1;
+    --accent: #2aa198;
+    --border: #eee8d5;
+}
+
+/* 10. Everforest Dark */
+.theme-everforest-dark {
+    --bg-primary: #253b25;
+    --bg-secondary: #1f321f;
+    --text-primary: #d3c6aa;
+    --text-secondary: #b5a67a;
+    --accent: #83ba54;
+    --border: #2f482f;
+}

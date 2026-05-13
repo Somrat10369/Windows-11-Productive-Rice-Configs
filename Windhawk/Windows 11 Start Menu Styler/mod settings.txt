@@ -1,0 +1,274 @@
+theme: ''
+disableNewStartMenuLayout: '1'
+styleConstants:
+  - 'BG = #1a1b26'
+  - 'BG2 = #24283b'
+  - 'BG3 = #343B58'
+  - 'Text = #9aa5ce'
+  - 'Text2 = #565f89'
+  - 'Button = #e0af68'
+  - 'RED = #f7768e'
+  - 'Border = #565f89'
+controlStyles:
+  - target: Windows.UI.Xaml.Controls.Grid#UndockedRoot
+    styles:
+      - Visibility=Visible
+      - Width=500
+      - Margin=200,-10,0,20
+  - target: Windows.UI.Xaml.Controls.Grid#AllAppsRoot
+    styles:
+      - Visibility=Visible
+      - Width=300
+      - Transform3D:=<CompositeTransform3D TranslateX="-1240" />
+      - Margin=180,0,-220,0
+  - target: Windows.UI.Xaml.Controls.Button#CloseAllAppsButton
+    styles:
+      - Visibility=Collapsed
+  - target: StartDocked.StartSizingFrame
+    styles:
+      - MinWidth=850
+      - MaxWidth=850
+      - MaxHeight=700
+  - target: Windows.UI.Xaml.Controls.Grid#ShowMoreSuggestions
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.Button#ShowAllAppsButton
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.GridView#RecommendedList > Windows.UI.Xaml.Controls.Border > Windows.UI.Xaml.Controls.ScrollViewer#ScrollViewer > Windows.UI.Xaml.Controls.Border#Root > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.ScrollContentPresenter#ScrollContentPresenter > Windows.UI.Xaml.Controls.ItemsPresenter > Windows.UI.Xaml.Controls.ItemsWrapGrid > Windows.UI.Xaml.Controls.GridViewItem
+    styles:
+      - MaxWidth=20
+      - MinWidth=20
+      - Margin=0,0,0,0
+  - target: StartDocked.AllAppsGridListView#AppsList
+    styles:
+      - Padding=70,3,60,106
+  - target: Windows.UI.Xaml.Controls.Grid#AllAppsPaneHeader
+    styles:
+      - Margin=97,-10,0,0
+  - target: Windows.UI.Xaml.Controls.Grid#SuggestionsParentContainer
+    styles:
+      - Visibility=Collapsed
+  - target: StartDocked.NavigationPaneView#NavigationPane
+    styles:
+      - FlowDirection=0
+      - Margin=30,0,30,0
+  - target: StartDocked.PowerOptionsView
+    styles:
+      - Margin=0,-28,-10,0
+      - CornerRadius=99
+  - target: Windows.UI.Xaml.Controls.ItemsStackPanel
+    styles:
+      - FlowDirection=1
+  - target: Windows.UI.Xaml.Controls.ListViewItem
+    styles:
+      - FlowDirection=0
+  - target: Windows.UI.Xaml.Controls.ItemsStackPanel > Windows.UI.Xaml.Controls.ListViewItem
+    styles:
+      - FlowDirection=0
+  - target: StartDocked.SearchBoxToggleButton#StartMenuSearchBox
+    styles:
+      - Margin=23,-101,23,-514
+  - target: Windows.UI.Xaml.Controls.TextBlock#NoSuggestionsWithoutSettingsLink
+    styles:
+      - Margin=11,0,48,0
+  - target: StartDocked.LauncherFrame > Windows.UI.Xaml.Controls.Grid#RootGrid > Windows.UI.Xaml.Controls.Grid#RootContent > Windows.UI.Xaml.Controls.Grid#MainContent > Windows.UI.Xaml.Controls.Grid#InnerContent > Windows.UI.Xaml.Shapes.Rectangle
+    styles:
+      - Margin=67,7,0,21
+  - target: Windows.UI.Xaml.Controls.SemanticZoom#ZoomControl
+    styles:
+      - IsZoomOutButtonEnabled=false
+  - target: Windows.UI.Xaml.Controls.Button#ZoomOutButton > Windows.UI.Xaml.Controls.ContentPresenter#ContentPresenter > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Text=
+  - target: Windows.UI.Xaml.Controls.Button#ZoomOutButton
+    styles:
+      - Width=28
+      - Height=28
+      - Margin=0,-36,10,0
+      - FontSize=14
+      - CornerRadius=4
+      - VerticalAlignment=0
+      - Background=$Button
+      - BorderBrush=$Button
+  - target: Windows.UI.Xaml.Controls.ListView#ZoomAppsList
+    styles:
+      - Padding=86,0,27,0
+  - target: StartDocked.SearchBoxToggleButton
+    styles:
+      - Height=38
+      - Margin=245,-10,20,30
+      - CornerRadius=20
+  - target: StartMenu.PinnedList
+    styles:
+      - Height=700
+  - target: Windows.UI.Xaml.Controls.TextBlock#PinnedListHeaderText
+    styles:
+      - Margin=-30,0,0,0
+  - target: Windows.UI.Xaml.Controls.Grid#SuggestionsParentContainer
+    styles:
+      - Margin=-20.0,0,0
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Visibility=Collapsed
+  - target: StartDocked.AppListViewItem > Grid
+    styles:
+      - Margin=2
+  - target: StartDocked.NavigationPaneView
+    styles:
+      - Height=50
+  - target: Windows.UI.Xaml.Controls.TextBlock#PinnedListHeaderText
+    styles:
+      - Visibility=Visible
+  - target: Rectangle[4]
+    styles:
+      - Margin=0,-290,0,0
+  - target: Border#AcrylicBorder
+    styles:
+      - CornerRadius=20
+      - Margin=0
+      - BorderThickness=1
+      - Background=$BG
+      - BorderBrush=$BG
+  - target: Border#AcrylicOverlay
+    styles:
+      - CornerRadius=15
+      - BorderBrush=$BG
+      - BorderThickness=1
+      - Margin=235,75,15,-50
+      - Background=$BG2
+  - target: Border#DropShadow
+    styles:
+      - CornerRadius=20
+      - Margin=0
+  - target: Border#DropShadowDismissTarget
+    styles:
+      - CornerRadius=20
+      - Margin=0
+  - target: StartDocked.PowerOptionsView > StartDocked.NavigationPaneButton > Grid > Border
+    styles:
+      - CornerRadius=99
+      - Margin=2,3,2,0
+  - target: StartDocked.UserTileView
+    styles:
+      - Margin=-20,-1250,0,0
+  - target: StartDocked.UserTileView > StartDocked.NavigationPaneButton > Grid > Border
+    styles:
+      - Margin=8,0,0,0
+      - CornerRadius=20
+  - target: StartDocked.SearchBoxToggleButton > Grid > Border
+    styles:
+      - Background=$BG2
+      - BorderBrush=$BG
+  - target: StartDocked.LauncherFrame > Grid#RootGrid > Grid#RootContent > Grid#MainContent > Grid#InnerContent > Rectangle
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.FlyoutPresenter[1]
+    styles:
+      - Transform3D:=<CompositeTransform3D TranslateX="50"/>
+  - target: StartDocked.AppListView#NavigationPanePlacesListView
+    styles:
+      - Margin=0,-30,0,0
+  - target: StartMenu.ExpandedFolderList > Grid > Border
+    styles:
+      - Background=$BG2
+  - target: TextBlock#PlaceholderText
+    styles:
+      - Foreground=$Text
+  - target: Windows.UI.Xaml.Controls.Button
+    styles:
+      - Background=$Buttons
+  - target: StackPanel > Windows.UI.Xaml.Controls.Button
+    styles:
+      - Background=transparent
+      - BorderBrush=transparent
+  - target: Microsoft.UI.Xaml.Controls.ItemsRepeater > Windows.UI.Xaml.Controls.Button
+    styles:
+      - Background=transparent
+      - BorderBrush=transparent
+  - target: TextBlock#DisplayName
+    styles:
+      - Foreground=$Text
+  - target: TextBlock#Title
+    styles:
+      - Foreground=$Text
+  - target: TextBlock#Subtitle
+    styles:
+      - Foreground=$Text
+  - target: TextBlock#PinnedListHeaderText
+    styles:
+      - Foreground=$Button
+  - target: TextBlock#TopLevelSuggestionsListHeaderText
+    styles:
+      - Foreground=$Text
+  - target: TextBlock#AllAppsHeading
+    styles:
+      - Foreground=$Button
+  - target: TextBlock#MoreSuggestionsListHeaderText
+    styles:
+      - Foreground=$Text
+  - target: TextBlock#AppDisplayName
+    styles:
+      - Foreground=$Text
+  - target: 'TextBlock#Text '
+    styles:
+      - Foreground=$RED
+  - target: TextBlock#FolderGlyph
+    styles:
+      - Foreground=$Text
+  - target: TextBlock#StatusMessage
+    styles:
+      - Foreground=$Text2
+  - target: Windows.UI.Xaml.Controls.Border#ContentBorder > Windows.UI.Xaml.Controls.Grid#DroppedFlickerWorkaroundWrapper > Border@CommonStates
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=$Border
+      - CornerRadius=6
+  - target: Windows.UI.Xaml.Controls.Border#ContentBorder > Windows.UI.Xaml.Controls.Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder
+    styles:
+      - Background=transparent
+  - target: ' Border#AppBorder'
+    styles:
+      - Background=$BG
+  - target: Border#TaskbarSearchBackground
+    styles:
+      - Background=$BG2
+      - BorderBrush=$Border
+  - target: Grid
+    styles:
+      - RequestedTheme=2
+  - target: TextBlock#UserTileNameText
+    styles:
+      - Foreground=$Button
+  - target: Windows.UI.Xaml.Controls.ContentPresenter > Windows.UI.Xaml.Controls.FontIcon > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground=$Buttons
+  - target: Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.FontIcon > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground=$RED
+  - target: MenuFlyoutPresenter
+    styles:
+      - Background=$BG
+  - target: Windows.UI.Xaml.Controls.FontIcon#SearchGlyph > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground=$BG
+  - target: StartDocked.AllAppsGridListViewItem > Windows.UI.Xaml.Controls.Grid@CommonStates > Windows.UI.Xaml.Controls.Border
+    styles:
+      - Background@ActivePointerOver:=<LinearGradientBrush StartPoint="0.5,0" EndPoint="0,0.5"> <GradientStop Color="#268ccf7e" Offset="0" /><GradientStop Color="#26e5c76b" Offset="1" /></LinearGradientBrush>
+  - target: StartDocked.AllAppsGridListViewItem > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.Border#BackgroundBorder
+    styles:
+      - Background=transparent
+  - target: Border#AccentAppBorder
+    styles:
+      - Background=$BG
+      - BorderBrush=$BG2
+themeResourceVariables:
+  - ''
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+webContentCustomJs: ''
+resourceVariables:
+  - variableKey: ''
+    value: ''

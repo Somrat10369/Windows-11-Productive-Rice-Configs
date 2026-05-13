@@ -1,0 +1,5 @@
+suffixRemovalMode: fileExplorerOnly
+suffixRules:
+  - processIdentifier: ''
+    search: ''
+    replace: ''

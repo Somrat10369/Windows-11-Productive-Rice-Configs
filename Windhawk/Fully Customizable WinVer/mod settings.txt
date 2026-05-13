@@ -1,0 +1,111 @@
+logo:
+  enabled: 1
+  center: 1
+  x: 0
+  'y': 10
+  width: 0
+  height: -1
+  path: C:\Users\Md. Nadim Mahmud\Downloads\Programs\MacOS_Dock_TD\MyDockFinder\themes\default\icons\Apple.png
+startPosition:
+  enabled: 1
+  center: 1
+  monitor: 0
+  x: 0
+  'y': 0
+windowSize:
+  enabled: 1
+  width: 0
+  height: 0
+  expandControls: 1
+  exceptionalOkButton: 1
+removeFirstFocus: 0
+alwaysOnTop: 1
+customIcon: shell32.dll;23
+removeTitleIcon: 1
+restoreCloseButton: 1
+windowColors:
+  title: 36,40,59
+  border: 41,45,66
+  bar: 36,40,59
+  background: 36,40,59
+  separator: 45,52,70
+  textColor: 122,162,247
+titleText: **your username** OS
+modifyWindows:
+  - id: LeftIcon
+    label: ''
+    hidden: 1
+    relativePosition: 0
+    position: ''
+    zIndex: Default
+    textColor: ''
+  - id: Separator
+    label: ''
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: ProductName
+    label: **your username** OS
+    hidden: 0
+    relativePosition: 0
+    position: 100,0,300,300
+    zIndex: ''
+    textColor: 122,162,247
+  - id: Version
+    label: '{default.Version}'
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: 192,202,245
+  - id: Copyright
+    label: © **your username** Corp - Made with ☕ and 💖
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: Spacer1
+    label: ''
+    hidden: 1
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: RegisteredUser1
+    label: ''
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: RegisteredUser2
+    label: ''
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: OkButton
+    label: ''
+    hidden: 1
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: LegalNotice
+    label: No legal BS here, just pure Tokyo vibes 🌸
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''
+  - id: LicenseInfo
+    label: Powered by Tokyo Night And too much ☕
+    hidden: 0
+    relativePosition: 0
+    position: ''
+    zIndex: ''
+    textColor: ''

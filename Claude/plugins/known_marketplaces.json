@@ -1,0 +1,10 @@
+{
+  "ecc": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/affaan-m/everything-claude-code.git"
+    },
+    "installLocation": "C:\\Users\\**your username**\\.claude\\plugins\\marketplaces\\ecc",
+    "lastUpdated": "2026-05-12T14:09:22.083Z"
+  }
+}

@@ -1,0 +1,45 @@
+# ============================================================
+# Yazi Configuration — **your username** (Upgraded IPC Version)
+# ============================================================
+
+[opener]
+
+edit = { 
+    run = 'powershell -NoProfile -Command "$json = @{ action = \"edit\"; files = @($args) } | ConvertTo-Json -Compress; Set-Content -Path $env:CHOOSER_FILE -Value $json"',
+    block = true
+}
+
+nvim = { 
+    run = 'powershell -NoProfile -Command "$json = @{ action = \"nvim\"; files = @($args) } | ConvertTo-Json -Compress; Set-Content -Path $env:CHOOSER_FILE -Value $json"',
+    block = true
+}
+
+vscode = { 
+    run = 'powershell -NoProfile -Command "$json = @{ action = \"vscode\"; files = @($args) } | ConvertTo-Json -Compress; Set-Content -Path $env:CHOOSER_FILE -Value $json"'
+}
+
+explorer = {
+    run = 'powershell -NoProfile -Command "$json = @{ action = \"explorer\"; files = @($args) } | ConvertTo-Json -Compress; Set-Content -Path $env:CHOOSER_FILE -Value $json"'
+}
+
+terminal = {
+    run = 'powershell -NoProfile -Command "$json = @{ action = \"terminal\"; files = @($args) } | ConvertTo-Json -Compress; Set-Content -Path $env:CHOOSER_FILE -Value $json"'
+}
+
+
+[open]
+rules = [
+    { name = "*", use = ["edit", "nvim", "vscode", "explorer", "terminal"] }
+]
+
+
+[manager]
+sort_by = "alphabetical"
+sort_dir_first = true
+
+
+# Force interactive open menu on Enter
+[[manager.prepend_keymap]]
+on   = [ "<Enter>" ]
+exec = "open --interactive"
+desc = "Open with action menu"

@@ -1,0 +1,4 @@
+contrastEnabled: 1
+contrastOffset: 22
+useManualRGB: 1
+manualRGB: 0,0,0

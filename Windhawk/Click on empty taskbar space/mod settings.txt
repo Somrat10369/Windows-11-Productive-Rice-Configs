@@ -1,0 +1,33 @@
+TriggerActionOptions:
+  - KeyboardTriggers:
+      - none
+      - lctrl
+      - lshift
+      - lalt
+      - win
+      - rctrl
+      - rshift
+      - ralt
+    MouseTrigger: leftDouble
+    TaskbarType: all
+    Action: ACTION_TASKBAR_AUTOHIDE
+    AdditionalArgs: arg1;arg2
+  - KeyboardTriggers:
+      - ''
+    MouseTrigger: middle
+    TaskbarType: all
+    Action: ACTION_HIDE_ICONS
+    AdditionalArgs: ''
+oldTaskbarOnWin11: 0
+eagerTriggerEvaluation: 0
+CombineTaskbarButtons:
+  State1: COMBINE_ALWAYS
+  State2: COMBINE_NEVER
+  StateSecondary1: COMBINE_ALWAYS
+  StateSecondary2: COMBINE_NEVER
+doubleClickAction: ACTION_TASK_MANAGER
+middleClickAction: ACTION_SHOW_DESKTOP
+StartProcess: C:\Windows\System32\notepad.exe
+VirtualKeyPress:
+  - '0x5B'
+  - '0x45'

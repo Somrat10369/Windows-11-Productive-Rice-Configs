@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on = ["<Enter>"]
+run = "shell 'echo edit:/"$@/" > /"$YAZI_CHOOSER_FILE/"' --confirm"
+desc = "Open in edit (msedit)"
+
+[[manager.prepend_keymap]]
+on = ["<C-Enter>"]
+run = "shell 'echo vscode:/"$@/" > /"$YAZI_CHOOSER_FILE/"' --confirm"
+desc = "Open in VSCode"
+
+[[manager.prepend_keymap]]
+on = ["<A-Enter>"]
+run = "shell 'echo nvim:/"$@/" > /"$YAZI_CHOOSER_FILE/"' --confirm"
+desc = "Open in Neovim"

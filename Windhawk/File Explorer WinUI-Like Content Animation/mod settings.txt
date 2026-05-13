@@ -1,0 +1,4 @@
+duration: 420
+distance: 32
+firstOpenDelay: 500
+navigationDelay: 140

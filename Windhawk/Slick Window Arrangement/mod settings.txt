@@ -1,0 +1,9 @@
+SnapWindowsWhenDragging: 1
+SnapWindowsDistance: 25
+KeysToDisableSnapping:
+  Ctrl: 0
+  Alt: 1
+  Shift: 0
+SlidingAnimation: 1
+SnapWindowsWhenSliding: 1
+SlidingAnimationSlowdown: 15

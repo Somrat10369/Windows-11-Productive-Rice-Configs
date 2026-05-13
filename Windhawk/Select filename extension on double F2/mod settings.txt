@@ -1,0 +1,3 @@
+DoubleF2MilliSeconds: 1000
+ContinuousLoop: 0
+ReverseCycle: 0
