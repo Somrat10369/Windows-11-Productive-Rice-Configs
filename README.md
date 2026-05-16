@@ -2,11 +2,9 @@
 
 > A curated, battle-tested collection of 200+ tools for Windows 11 — covering system optimization, developer workflows, visual customization, privacy, and beyond.
 
-![Windows 11 Ultimate Setup](Assets/Windows.png)
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010-blue)](https://www.microsoft.com/windows)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-May%202026-green)](https://github.com)
 [![Tools](https://img.shields.io/badge/Tools-200%2B-purple)](./Useful_Programms.md)
 
 ---
@@ -21,11 +19,28 @@
 ---
 
 ## Gallery
-
-![GlazeWM](Assets/Glaze_Wm.gif)
+![Windows 11 Ultimate Setup](Assets/Windows.png)
 ![Terminal](Assets/Terminal.png)
-![Flow Launcher](Assets/Flow_Launcher.png)
 ![File Pilot](Assets/File_Pilot.png)
+![Browser](Assets/Vivaldi.png)
+![Vs Code](Assets/Vscode.png)
+![Flow Launcher](Assets/Flow_Launcher.png)
+![System Monitor](Assets/Btop.png)
+![Dock](Assets/Mac_Dock.png)
+![Msi After Burner](Assets/Msi_After_Burner.png)
+![Neovide](Assets/Neovide.png)
+![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
+![Notepad](Assets/Notepad++.png)
+![Torrenter](Assets/Qbtorrent.png)
+![Downloader Cli](Assets/Surge_Cli.png)
+![Wallpaper](Assets/Wallpaper_Selection.png)
+![Status Bar](Assets/Yasb_Bar_Yasb_Bar_20260406_004705.png)
+![Local Private Ai](Assets/Yasb_Widget_Showcase_Ai_Chat.png)
+![Status](Assets/Yasb_Widget_Showcase_Memory.png)
+![Notes](Assets/Yasb_Widget_Showcase_Notes.png)
+![Todo list](Assets/Yasb_Widget_Showcase_Todo.png)
+![Cli file manager](Assets/Yazi.png)
+![Sign off](Assets/Sign_Off.png)
 
 ---
 
@@ -260,7 +275,7 @@ Select desired tweaks and installs from the GUI. See [christitustech/winutil](ht
 
 ```powershell
 # Open your profile for editing
-notepad $PROFILE
+edit.exe $PROFILE
 
 # Recommended: add aliases, Oh-My-Posh theme init, zoxide init
 # See PowerShell_Profile — Command Cheatsheet.md in this repo
@@ -348,6 +363,4 @@ This collection builds on the work of many open-source projects and their contri
 
 This repository is distributed under the **MIT License**. Individual tools have their own licenses — see each project's documentation for details.
 
----
 
-*Made for Windows power users · May 2026*
