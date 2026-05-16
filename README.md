@@ -22,12 +22,11 @@
 ![Windows 11 Ultimate Setup](Assets/Windows.png)
 ![Terminal](Assets/Terminal.png)
 ![Browser](Assets/Vivaldi.png)
-![Wallpaper](Assets/Wallpaper_Selection.png)
 ![Todo list](Assets/Yasb_Widget_Showcase_Todo.png)
 ![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
 ![Cli file manager](Assets/Yazi.png)
 ![Downloader Cli](Assets/Surge_Cli.png)
-![Flow Launcher](Assets/Flow_Launcher.png)
+
 ![Vs Code](Assets/Vscode.png)
 ![System Monitor](Assets/Btop.png)
 ![File Pilot](Assets/File_Pilot.png)
@@ -37,9 +36,12 @@
 ![Status Bar](Assets/Yasb_Bar_Yasb_Bar_20260406_004705.png)
 ![Local Private Ai](Assets/Yasb_Widget_Showcase_Ai_Chat.png)
 ![Status](Assets/Yasb_Widget_Showcase_Memory.png)
-![Notes](Assets/Yasb_Widget_Showcase_Notes.png)
-![Msi After Burner](Assets/Msi_After_Burner.png)
 ![Sign off](Assets/Sign_Off.png)
+![Winver](Assets/Winver.png)
+![Notes](Assets/Yasb_Widget_Showcase_Notes.png)
+![Flow Launcher](Assets/Flow_Launcher.png)
+![Wallpaper](Assets/Wallpaper_Selection.png)
+![Msi After Burner](Assets/Msi_After_Burner.png)
 
 ---
 
