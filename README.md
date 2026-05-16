@@ -2,7 +2,6 @@
 
 > A curated, battle-tested collection of 200+ tools for Windows 11 — covering system optimization, developer workflows, visual customization, privacy, and beyond.
 
-
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010-blue)](https://www.microsoft.com/windows)
 [![Tools](https://img.shields.io/badge/Tools-200%2B-purple)](./Useful_Programms.md)
@@ -19,6 +18,7 @@
 ---
 
 ## Gallery
+
 ![Windows 11 Ultimate Setup](Assets/Windows.png)
 ![Terminal](Assets/Terminal.png)
 ![Browser](Assets/Vivaldi.png)
@@ -26,7 +26,6 @@
 ![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
 ![Cli file manager](Assets/Yazi.png)
 ![Downloader Cli](Assets/Surge_Cli.png)
-
 ![Vs Code](Assets/Vscode.png)
 ![System Monitor](Assets/Btop.png)
 ![File Pilot](Assets/File_Pilot.png)
