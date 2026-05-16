@@ -301,18 +301,18 @@ Both use config files — copy the provided configs from this repo and adjust to
 
 Based on daily usage and power-user feedback:
 
-| # | Tool | Why |
-|---|------|-----|
-| 1 | **Everything + Toolbar** | Instant file search — non-negotiable |
-| 2 | **Flow Launcher** | App launcher with a rich plugin ecosystem |
-| 3 | **PowerToys** | Microsoft's official power-user toolkit |
-| 4 | **FilePilot** | Lightweight, fast, tabbed file manager |
-| 5 | **HiBit Startup Manager** | Boot optimization made easy |
-| 6 | **VS Code** | Most versatile development environment |
-| 7 | **Vivaldi** | Feature-rich, customizable browser |
-| 8 | **GlazeWM** | Tiling window manager for focused workflows |
-| 9 | **UniGetUI** | One GUI for all package managers |
-| 10 | **Windhawk** | Deepest Windows customization platform |
+| #  | Tool                      | Why                                         |
+|----|---------------------------|---------------------------------------------|
+| 1  | **Everything + Toolbar**  | Instant file search — non-negotiable        |
+| 2  | **Flow Launcher**         | App launcher with a rich plugin ecosystem   |
+| 3  | **PowerToys**             | Microsoft's official power-user toolkit     |
+| 4  | **FilePilot**             | Lightweight, fast, tabbed file manager      |
+| 5  | **HiBit Startup Manager** | Boot optimization made easy                 |
+| 6  | **VS Code**               | Most versatile development environment      |
+| 7  | **Vivaldi**               | Feature-rich, customizable browser          |
+| 8  | **GlazeWM**               | Tiling window manager for focused workflows |
+| 9  | **UniGetUI**              | One GUI for all package managers            |
+| 10 | **Windhawk**              | Deepest Windows customization platform      |
 
 ---
 
@@ -362,5 +362,3 @@ This collection builds on the work of many open-source projects and their contri
 ## License
 
 This repository is distributed under the **MIT License**. Individual tools have their own licenses — see each project's documentation for details.
-
-
