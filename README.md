@@ -935,8 +935,6 @@ We extend special appreciation to:
 ---
 
 
----
-
 ## License
 
 This repository is distributed under the **MIT License**. Individual tools have their own licenses — see each project's documentation for details.
