@@ -420,6 +420,7 @@ Individual tools retain their own licenses — see each project's documentation.
 ---
  
 <div align="center">
+ 
 **Made with ☕ cappuccino vibes on Windows 11**
  
 [⬆ Back to top](#-win-11-config)
