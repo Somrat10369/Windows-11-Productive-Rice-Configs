@@ -147,7 +147,7 @@ Import existing history on first run — Atuin will prompt automatically.
 1. Download and install the desktop app
 2. Sign in with your Anthropic account or better, use it with ollama
   ```powershell
-  ollama launch claude --config
+  ollama launch claude 
   ```
 3. Optional: enable **web search**, **memory**, and **extended thinking** from Settings
 
@@ -612,4 +612,4 @@ Please follow the existing format and link only to official sources.
 ## License
 
 This repository is distributed under the **MIT License**. Individual tools have their own licenses — see each project's documentation for details.
-****
+
