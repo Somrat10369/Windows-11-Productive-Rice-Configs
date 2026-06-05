@@ -1,3 +1,4 @@
+<div align="center">
 # Windows 11 Power User Collection
 
 > A curated, battle-tested collection of 200+ tools for Windows 11 — covering system optimization, developer workflows, visual customization, privacy, and beyond. Mostly Keyboard driven workflow with cappuccin vibes.
@@ -6,12 +7,14 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010-blue)](https://www.microsoft.com/windows)
 [![Tools](https://img.shields.io/badge/Tools-200%2B-purple)](./Useful_Programms.md)
 
+</div>
+
 ---
 
 ## Quick Links
 
 - [Complete Tool Catalog](./Useful_Programms.md) — All 200+ tools with descriptions and direct download links
-- [Quick Start](#quick-start) — Install essentials in minutes
+- [Quick Start](#-quick-start) — Install essentials in minutes
 - [Gallery](#gallery) — Visual showcase
 
 ---
@@ -42,536 +45,235 @@
 ![Msi After Burner](Assets/Msi_After_Burner.png)
 
 ---
+## 📐 System Architecture
+ 
+How all the layers fit together — from the OS kernel up to what you actually see and touch:
+ 
+```mermaid
+graph TD
+    OS["🪟 Windows 11 Kernel"]
+ 
+    OS --> WM["GlazeWM\nTiling Window Manager"]
+    OS --> SHELL["PowerShell 7\n+ Oh-My-Posh Prompt"]
+    OS --> BAR["YASB\nStatus Bar"]
+    OS --> BORDER["Tacky Borders\nWindow Borders"]
+    OS --> THEME["Win11 Themes\n+ Windhawk Mods"]
+ 
+    WM --> WORKSPACE["Workspaces\nAlt+1…9"]
+    WM --> KEYBINDS["Keybindings\nAlt+H/J/K/L"]
+    WORKSPACE --> APP1["VS Code"]
+    WORKSPACE --> APP2["Vivaldi Browser"]
+    WORKSPACE --> APP3["Terminal / Yazi"]
+ 
+    SHELL --> ATUIN["Atuin\nShell History Search"]
+    SHELL --> FASTFETCH["Fastfetch\nSystem Info"]
+    SHELL --> YAZI["Yazi\nTerminal File Manager"]
+ 
+    BAR --> WIDGET1["Clock · CPU · RAM"]
+    BAR --> WIDGET2["Workspaces Display"]
+    BAR --> WIDGET3["Todo · Notes · AI Chat"]
+ 
+    THEME --> CURSOR["W11 Dark Smooth Cursor"]
+    THEME --> CTX["Nilesoft Shell\nContext Menu"]
+ 
+    style OS fill:#1e1e2e,color:#cdd6f4,stroke:#89b4fa
+    style WM fill:#313244,color:#cba6f7,stroke:#cba6f7
+    style SHELL fill:#313244,color:#a6e3a1,stroke:#a6e3a1
+    style BAR fill:#313244,color:#89b4fa,stroke:#89b4fa
+    style BORDER fill:#313244,color:#f38ba8,stroke:#f38ba8
+    style THEME fill:#313244,color:#fab387,stroke:#fab387
+```
+ 
+---
+ 
+## 🗂️ Repository Structure
+ 
+```
+Win-11-Config/
+├── Assets/               ← Screenshots & gallery images
+├── Atuin/                ← Shell history config
+├── Claude/               ← AI assistant config
+├── Discord - vencord/    ← Vencord theme & plugins
+├── Fastfetch/            ← System info display
+├── File Pilot/           ← Lightweight file manager
+├── Flow Launcher/        ← App launcher (Alt+Space)
+├── Glazewm/              ← Tiling WM config.yaml
+├── Nilesoft Shell/       ← Right-click menu
+├── Notepad++/            ← Editor theme & settings
+├── Oh-My-Posh/           ← Shell prompt theme
+├── Qbtorrent/            ← Torrent client config
+├── Tacky-Borders/        ← Window border colors
+├── Terminal/             ← Windows Terminal settings
+├── Unigetui/             ← Package manager GUI
+├── Vivaldi/              ← Browser config
+├── Vscode/               ← Editor settings + keybinds
+├── W11 Cursor Dark Smooth/
+├── Wallpaper/            ← Curated wallpapers
+├── Win 11 Themes/        ← Custom .msstyles
+├── Windhawk/             ← UI mod configs
+├── Yasb/                 ← Status bar config + CSS
+├── Yazi/                 ← Terminal file manager
+├── Useful_Programms.md   ← Full 200+ tool catalog
+└── README.md
+```
+ 
+---
 
 
-## Quick Start
-
+## ⚡ Quick Start
+ 
 ### Prerequisites
-
-- Windows 11 (Windows 10 compatible for most tools)
-- Administrator access for system modifications
-
-### Method 1: Winget (Recommended)
-
-```powershell
-winget install Microsoft.PowerToys
-winget install Microsoft.PowerShell
-winget install Git.Git
-winget install Docker.DockerDesktop
-winget install Microsoft.VisualStudioCode
-winget install voidtools.Everything
-winget install Flow-Launcher.Flow-Launcher
-winget install Obsidian.Obsidian
-winget install qBittorrent.qBittorrent
-winget install Neovim.Neovim
-...
-
-```
-
-### Method 2: UniGetUI (GUI)
-
-1. Download and install **[UniGetUI](https://github.com/marticliment/UniGetUI/releases/latest)**
-2. Search for any tool by name across winget, Scoop, Chocolatey, and more
-3. Select and install — UniGetUI handles everything
-
-### Method 3: Chris Titus WinUtil
-
-```powershell
-# Run in an elevated PowerShell window
-irm christitus.com/win | iex
-```
-
-Select desired tweaks and installs from the GUI. See [christitustech/winutil](https://github.com/ChrisTitusTech/winutil) for details.
-
----
-
-# Quick Start Guide — Star Tools
-
-> Setup instructions for the core tools in this collection. Each tool has its config stored in its own folder in this repo.
-
----
-
-## Table of Contents
-
-1. [Atuin](#atuin)
-2. [Claude](#claude)
-3. [Discord — Vencord](#discord--vencord)
-4. [Fastfetch](#fastfetch)
-5. [File Pilot](#file-pilot)
-6. [Flow Launcher](#flow-launcher)
-7. [GlazeWM](#glazewm)
-8. [Nilesoft Shell](#nilesoft-shell)
-9. [Notepad++](#notepad)
-10. [Oh-My-Posh](#oh-my-posh)
-11. [QBittorrent](#qbittorrent)
-12. [Tacky Borders](#tacky-borders)
-13. [Terminal](#terminal)
-14. [UniGetUI](#unigetui)
-15. [Vivaldi](#vivaldi)
-16. [VS Code](#vs-code)
-17. [W11 Cursor Dark Smooth](#w11-cursor-dark-smooth)
-18. [Wallpaper](#wallpaper)
-19. [Win 11 Themes](#win-11-themes)
-20. [Windhawk](#windhawk)
-21. [YASB](#yasb)
-22. [Yazi](#yazi)
-
----
-
-## Atuin
-
-**Shell history sync and search — replaces Ctrl+R.**
-
-📥 [atuin.sh](https://atuin.sh/) · Config: `Atuin.`
-
-```powershell
-winget install atuinsh.atuin
-```
-
-Add to PowerShell profile:
-
-```powershell
-Invoke-Expression (& atuin init powershell | Out-String)
-```
-
-Import existing history on first run — Atuin will prompt automatically.
-
----
-
-## Claude
-
-**Anthropic's AI assistant — desktop app.**
-
-📥 [claude.ai/download](https://claude.ai/download) · Config: `Claude.`
-
-1. Download and install the desktop app
-2. Sign in with your Anthropic account or better, use it with ollama
-  ```powershell
-  ollama launch claude 
-  ```
-3. Optional: enable **web search**, **memory**, and **extended thinking** from Settings
-
-> The desktop app supports global hotkey access and system prompt customization under Settings → Advanced.
-
----
-
-## Discord — Vencord
-
-**Discord with Vencord client mod for themes, plugins, and privacy.**
-
-📥 [vencord.dev](https://vencord.dev/download/) · Config: `Discord - Vencord.`
-
-1. Install Discord normally: [discord.com/download](https://discord.com/download)
-2. Download and run the **Vencord Installer**
-3. Select **Install** → point to your Discord install
-4. Launch Discord — Vencord loads automatically
-
-Apply themes and plugins from **Settings → Vencord → Themes / Plugins**.
-
-Copy config from `Discord - Vencord.` to:
-
-```
-%APPDATA%\Vencord\settings\
-```
-
----
-
-## Fastfetch
-
-**Fast, configurable system info fetcher.**
-
-📥 [github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch/releases/latest) · Config: `Fastfetch.`
-
-```powershell
-winget install fastfetch-cli.fastfetch
-```
-
-Copy config from `Fastfetch.` to:
-
-```
-%USERPROFILE%\.config\fastfetch\config.jsonc
-```
-
-Run with:
-
-```powershell
-fastfetch
-```
-
----
-
-## File Pilot
-
-**Lightweight, high-performance file manager. Under 2MB, multi-pane, tabbed.**
-
-📥 [filepilot.co](https://filepilot.co/) · Config: `File Pilot.`
-
-1. Download the portable `.exe` from the site
-2. Place it wherever you want — no install needed
-3. Launch and configure panes, keybindings, and theme from **Settings**
-
-Copy config from `File Pilot.` to:
-
-```
-%APPDATA%\FilePilot\
-```
-
----
-
-## Flow Launcher
-
-**App launcher for Windows — Everything search, calculator, shell, plugins.**
-
-📥 [flowlauncher.com](https://www.flowlauncher.com/) · Config: `Flow Launcher.`
-
-```powershell
-winget install Flow-Launcher.Flow-Launcher
-```
-
-Copy config from `Flow Launcher.` to:
-
-```
-%APPDATA%\FlowLauncher\Settings\
-```
-
-Set **Everything** as the default file search plugin for instant results. Recommended plugins: `Everything`, `Calculator`, `Shell`, `Browser Bookmarks`.
-
-Hotkey default: `Alt + Space`
-
----
-
-## GlazeWM
-
-**Tiling window manager for Windows inspired by i3.**
-
-📥 [github.com/glzr-io/glazewm](https://github.com/glzr-io/glazewm/releases/latest) · Config: `Glazewm.`
-
+ 
+- Windows 11 (most tools work on Windows 10 too)
+- Administrator access
+- PowerShell 7+ recommended
+### Method 1 — Winget (Fastest)
+ 
 ```powershell
 winget install glzr-io.glazewm
-```
-
-Copy config from `Glazewm.` to:
-
-```
-%USERPROFILE%\.glaze-wm\config.yaml
-```
-
-Launch GlazeWM — it reads the config on startup. Add it to **startup** via Task Scheduler or HiBit Startup Manager.
-
-Key defaults (configurable):
-
-| Action                   | Key                     |
-| ------------------------ | ----------------------- |
-| Focus left/right/up/down | `Alt + H/L/K/J`         |
-| Move window              | `Alt + Shift + H/L/K/J` |
-| Close window             | `Alt + Q`               |
-| Toggle floating          | `Alt + T`               |
-
----
-
-## Nilesoft Shell
-
-**Context menu extender for Windows File Explorer.**
-
-📥 [nilesoft.org](https://nilesoft.org/download) · Config: `Nilesoft Shell.`
-
-1. Download and run the installer (requires admin)
-2. Copy imports and config from `Nilesoft Shell.` to:
-
-```
-C:\Program Files\Nilesoft Shell\imports\
-```
-
-3. Right-click any file or folder to see the extended menu immediately — no restart needed
-
-Edit `shell.nss` to add/remove/reorder entries. Changes apply live.
-
----
-
-## Notepad++
-
-**Lightweight, extensible text editor.**
-
-📥 [notepad-plus-plus.org](https://notepad-plus-plus.org/downloads/) · Config: `Notepad++.`
-
-```powershell
-winget install Notepad++.Notepad++
-```
-
-Copy config from `Notepad++.` to:
-
-```
-%APPDATA%\Notepad++\
-```
-
-Includes: theme, language definitions, and plugin settings.
-
----
-
-## Oh-My-Posh
-
-**Prompt theme engine for PowerShell and any other shell.**
-
-📥 [ohmyposh.dev](https://ohmyposh.dev/docs/installation/windows) · Config: `Oh-My-Posh.`
-
-```powershell
+winget install AmN.yasb
 winget install JanDeDobbeleer.OhMyPosh
-```
-
-Copy the theme from `Oh-My-Posh.` to:
-
-```
-%USERPROFILE%\.config\oh-my-posh\
-```
-
-Add to your PowerShell profile (`notepad $PROFILE`):
-
-```powershell
-oh-my-posh init pwsh --config "$env:USERPROFILE\.config\oh-my-posh\theme.omp.json" | Invoke-Expression
-```
-
-Install a [Nerd Font](https://www.nerdfonts.com/font-downloads) and set it in your terminal for icons to render correctly.
-
----
-
-## QBittorrent
-
-**Free, open-source BitTorrent client. No ads, no bundled software.**
-
-📥 [qbittorrent.org](https://www.qbittorrent.org/download) · Config: `Qbtorrent.`
-
-```powershell
-winget install qBittorrent.qBittorrent
-```
-
-Copy config from `Qbtorrent.` to:
-
-```
-%APPDATA%\qBittorrent\
-```
-
-Includes: category settings, download paths, and UI preferences.
-
----
-
-## Tacky Borders
-
-**Colored window borders for focused/unfocused windows — Hyprland-style.**
-
-📥 [github.com/lukeyou05/tacky-borders](https://github.com/lukeyou05/tacky-borders/releases/latest) · Config: `Tacky-Borders.`
-
-1. Download the `.exe` from releases
-2. Copy config from `Tacky-Borders.` to:
-
-```
-%USERPROFILE%\.config\tacky-borders\config.yaml
-```
-
-3. Run `tacky-borders.exe` — add to startup for persistence
-
-Edit `config.yaml` to set border colors, width, and active/inactive behavior.
-
----
-
-## Terminal
-
-**Windows Terminal — the modern tabbed terminal host.**
-
-📥 [apps.microsoft.com](https://apps.microsoft.com/detail/9n0dx20hk701) · Config: `Terminal.`
-
-```powershell
+winget install Flow-Launcher.Flow-Launcher
+winget install sxyazi.yazi
 winget install Microsoft.WindowsTerminal
-```
-
-Copy config from `Terminal.` to:
-
-```
-%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-```
-
-Includes: color scheme, font, tab settings, default profile (PowerShell 7 / Terax).
-
----
-
-## UniGetUI
-
-**GUI frontend for winget, Scoop, Chocolatey, pip, npm, and cargo.**
-
-📥 [github.com/marticliment/UniGetUI](https://github.com/marticliment/UniGetUI/releases/latest) · Config: `Unigetui.`
-
-```powershell
-winget install MartiCliment.UniGetUI
-```
-
-On first launch, UniGetUI auto-detects installed package managers. Use the **Packages** tab to install, update, or remove software across all managers from one interface.
-
-Export your installed package list from **Settings → Backup** for easy reinstall on a new machine.
-
----
-
-## Vivaldi
-
-**Chromium browser built for power users — tab stacking, tiling, built-in mail and calendar.**
-
-📥 [vivaldi.com](https://vivaldi.com/download/) · Config: `Vivaldi.`
-
-```powershell
-winget install VivaldiTechnologies.Vivaldi
-```
-
-Sync settings via **Vivaldi Sync** (built-in) — sign in to restore your config on any machine.
-
-To manually copy config:
-
-```
-%LOCALAPPDATA%\Vivaldi\User Data\Default\
-```
-
-Recommended settings: enable **Tab Stacking**, set **Speed Dials**, configure **Keyboard Shortcuts** from `Vivaldi.`.
-
----
-
-## VS Code
-
-**Microsoft's open-source code editor.**
-
-📥 [code.visualstudio.com](https://code.visualstudio.com/Download) · Config: `Vscode.`
-
-```powershell
 winget install Microsoft.VisualStudioCode
-```
-
-Copy config from `Vscode.` to:
-
-```
-%APPDATA%\Code\User\settings.json
-%APPDATA%\Code\User\keybindings.json
-```
-
-Install extensions from the included list:
-
-```powershell
-# From the Vscode. folder, run:
-cat extensions.txt | xargs -I{} code --install-extension {}
-```
-
-Or install manually from the Extensions panel (`Ctrl+Shift+X`).
-
----
-
-## W11 Cursor Dark Smooth
-
-**Dark, smooth animated cursor theme for Windows 11.**
-
-📥 Source in `W11 Cursor Dark Smooth.` · Config: `W11 Cursor Dark Smooth.`
-
-1. Open the `W11 Cursor Dark Smooth.` folder
-2. Right-click `install.inf` → **Install**
-3. Go to **Settings → Bluetooth & devices → Mouse → Additional mouse settings → Pointers**
-4. Select **W11 Cursor Dark Smooth** from the scheme dropdown
-5. Click **Apply**
-
----
-
-## Wallpaper
-
-**Curated wallpaper collection.**
-
-📁 Location: `Wallpaper.`
-
-Browse the `Wallpaper.` folder and set your preferred image via:
-
-**Settings → Personalization → Background → Browse photos**
-
-Or right-click any image → **Set as desktop background**.
-
----
-
-## Win 11 Themes
-
-**Custom visual themes for Windows 11 (requires UltraUxThemePatcher).**
-
-📥 [UltraUxThemePatcher](https://melloware.com/ultrauxthemepatcher/) required · Config: `Win 11 Themes.`
-
-1. Install **UltraUxThemePatcher** first and restart
-2. Copy `.msstyles` files from `Win 11 Themes.` to:
-
-```
-C:\Windows\Resources\Themes\
-```
-
-3. Go to **Settings → Personalization → Themes**
-4. Select the installed theme
-
-> Without UltraUxThemePatcher, Windows will reject unsigned themes.
-
----
-
-## Windhawk
-
-**Mod platform for Windows — install customizations like extensions.**
-
-📥 [windhawk.net](https://windhawk.net/) · Config: `Windhawk.`
-
-```powershell
+winget install VivaldiTechnologies.Vivaldi
+winget install MartiCliment.UniGetUI
 winget install RaMMicHaeL.Windhawk
+winget install Notepad++.Notepad++
+winget install qBittorrent.qBittorrent
+winget install atuinsh.atuin
+winget install fastfetch-cli.fastfetch
 ```
-
-After install, open Windhawk and browse the mod catalog. Recommended mods:
-
-- **Taskbar Clock Customization** — custom date/time format
-- **Windows 11 Taskbar Styler** — restyle the taskbar
-- **Explorer Taskbar Tweaker** — advanced taskbar behavior
-- **Disable Windows Copilot** — remove Copilot button
-
-Mod settings are saved in Windhawk — no manual config file copy needed.
-
+ 
+### Method 2 — UniGetUI (GUI, no typing)
+ 
+1. Install [UniGetUI](https://github.com/marticliment/UniGetUI/releases/latest)
+2. Search any tool across winget / Scoop / Chocolatey / pip / npm / cargo
+3. Click Install — done
+### Method 3 — Chris Titus WinUtil
+ 
+```powershell
+# Run in elevated PowerShell
+irm christitus.com/win | iex
+```
+ 
 ---
-
-## YASB
-
-**Yet Another Status Bar — customizable Windows status bar.**
-
-📥 [github.com/amnweb/yasb](https://github.com/amnweb/yasb/releases/latest) · Config: `Yasb.`
-
+ 
+## 🔧 Config Deployment Flow
+ 
+How to apply configs after cloning this repo:
+ 
+```mermaid
+flowchart LR
+    A["git clone\nthis repo"] --> B["Pick a tool\nfolder"]
+    B --> C{Tool type?}
+ 
+    C -->|winget app| D["winget install\n<package-id>"]
+    C -->|portable exe| E["Download .exe\nplace anywhere"]
+    C -->|theme / skin| F["Requires patcher\nor installer"]
+ 
+    D --> G["Copy config\nfrom repo folder"]
+    E --> G
+    F --> G
+ 
+    G --> H{Where?}
+ 
+    H -->|GlazeWM| I["%USERPROFILE%\.glaze-wm\config.yaml"]
+    H -->|YASB| J["%USERPROFILE%\.yasb\"]
+    H -->|Oh-My-Posh| K["%USERPROFILE%\.config\oh-my-posh\"]
+    H -->|Yazi| L["%APPDATA%\yazi\config\"]
+    H -->|Terminal| M["%LOCALAPPDATA%\...\settings.json"]
+    H -->|VS Code| N["%APPDATA%\Code\User\"]
+ 
+    I --> Z["✅ Launch / Reload"]
+    J --> Z
+    K --> Z
+    L --> Z
+    M --> Z
+    N --> Z
+ 
+    style A fill:#1e1e2e,color:#cdd6f4,stroke:#89b4fa
+    style Z fill:#1e1e2e,color:#a6e3a1,stroke:#a6e3a1
+    style C fill:#313244,color:#fab387,stroke:#fab387
+    style H fill:#313244,color:#89b4fa,stroke:#89b4fa
+```
+ 
+---
+ 
+## 🌟 Core Tools — Deep Dive
+ 
+### GlazeWM — Tiling Window Manager
+ 
+Inspired by i3 on Linux. Windows auto-tile. No mouse needed.
+ 
+```powershell
+winget install glzr-io.glazewm
+# Config → %USERPROFILE%\.glaze-wm\config.yaml
+```
+ 
+| Action | Keybind |
+|---|---|
+| Focus left/right/up/down | `Alt + H/L/K/J` |
+| Move window | `Alt + Shift + H/L/K/J` |
+| Switch workspace | `Alt + 1–9` |
+| Close window | `Alt + Q` |
+| Toggle floating | `Alt + T` |
+| Launch terminal | `Alt + Enter` |
+ 
+---
+ 
+### YASB — Status Bar
+ 
 ```powershell
 winget install AmN.yasb
+# Config → %USERPROFILE%\.yasb\config.yaml + styles.css
 ```
-
-Copy config from `Yasb.` to:
-
-```
-%USERPROFILE%\.yasb\
-```
-
-Includes: `config.yaml` (bar layout, widgets) and `styles.css` (visual styling).
-
-Launch YASB — it reads both files on startup. Reload config live with the tray icon → **Reload**.
-
-Pairs best with **GlazeWM** — YASB can display the active workspace name directly from GlazeWM.
-
+ 
+Widgets included in this config:
+- Workspaces (synced with GlazeWM)
+- Clock · CPU · RAM · GPU
+- Todo list · Notes · Local AI chat
+- Media player controls
+Reload live: **Tray icon → Reload**
+ 
 ---
-
-## Yazi
-
-**Blazing-fast terminal file manager written in Rust.**
-
-📥 [github.com/sxyazi/yazi](https://github.com/sxyazi/yazi/releases/latest) · Config: `Yazi.`
-
+ 
+### Oh-My-Posh — Shell Prompt
+ 
+```powershell
+winget install JanDeDobbeleer.OhMyPosh
+# Add to $PROFILE:
+oh-my-posh init pwsh --config "$env:USERPROFILE\.config\oh-my-posh\theme.omp.json" | Invoke-Expression
+```
+ 
+> ⚠️ Requires a [Nerd Font](https://www.nerdfonts.com/font-downloads) in your terminal for icons.
+ 
+---
+ 
+### Flow Launcher — App Launcher
+ 
+```powershell
+winget install Flow-Launcher.Flow-Launcher
+# Config → %APPDATA%\FlowLauncher\Settings\
+```
+ 
+Hotkey: `Alt + Space`
+Recommended plugins: `Everything`, `Calculator`, `Shell`, `Browser Bookmarks`
+ 
+---
+ 
+### Yazi — Terminal File Manager
+ 
+Written in Rust. Fastest file manager available on Windows.
+ 
 ```powershell
 winget install sxyazi.yazi
+# Config → %APPDATA%\yazi\config\
 ```
-
-Copy config from `Yazi.` to:
-
-```
-%APPDATA%\yazi\config\
-```
-
-Includes: `yazi.toml`, `keymap.toml`, `theme.toml`.
-
-Add a shell wrapper for directory-jumping on exit (add to PowerShell profile):
-
+ 
+Add to PowerShell `$PROFILE` for directory-follow-on-exit:
+ 
 ```powershell
 function y {
     $tmp = [System.IO.Path]::GetTempFileName()
@@ -583,33 +285,143 @@ function y {
     Remove-Item -Path $tmp
 }
 ```
+ 
+Launch: `y` · Quit: `q`
+ 
+---
+ 
+### Windhawk — UI Mod Platform
+ 
+```powershell
+winget install RaMMicHaeL.Windhawk
+```
+ 
+Included mods in this config:
+ 
+| Mod | Effect |
+|---|---|
+| Taskbar Clock Customization | Custom date/time format |
+| Windows 11 Taskbar Styler | Full taskbar restyle |
+| Explorer Taskbar Tweaker | Advanced taskbar behavior |
+| Disable Windows Copilot | Remove Copilot button |
 
-Launch with `y` — exit with `q` and your terminal will follow to the last directory.
+And many more !
 
 ---
+ 
+### Nilesoft Shell — Context Menu
+ 
+```
+Download: nilesoft.org/download
+Config → C:\Program Files\Nilesoft Shell\imports\
+Edit: shell.nss (changes apply live, no restart)
+```
+ 
+---
+ 
+### Win 11 Themes — Custom Visual Themes
+ 
+> Requires [UltraUxThemePatcher](https://melloware.com/ultrauxthemepatcher/) — install first, then restart.
+ 
+```
+Copy .msstyles → C:\Windows\Resources\Themes\
+Settings → Personalization → Themes → select theme
+```
+ 
+---
+ 
+### Tacky Borders — Hyprland-Style Window Borders
+ 
+```
+Download from: github.com/lukeyou05/tacky-borders
+Config → %USERPROFILE%\.config\tacky-borders\config.yaml
+```
+ 
+Edit `config.yaml` to set active/inactive colors and border width.
+ 
+---
+ 
+### Atuin — Shell History
+ 
+```powershell
+winget install atuinsh.atuin
+# Add to $PROFILE:
+Invoke-Expression (& atuin init powershell | Out-String)
+```
+ 
+Replaces `Ctrl+R`. Searchable, syncable, timestamped history.
+ 
+---
+ 
+### Vivaldi — Power-User Browser
+ 
+```powershell
+winget install VivaldiTechnologies.Vivaldi
+# Sync via built-in Vivaldi Sync
+# Manual config → %LOCALAPPDATA%\Vivaldi\User Data\Default\
+```
+ 
+Enable: Tab Stacking · Speed Dials · Custom Keyboard Shortcuts
+ 
+---
+ 
+### VS Code
+ 
+```powershell
+winget install Microsoft.VisualStudioCode
+# settings.json  → %APPDATA%\Code\User\settings.json
+# keybindings    → %APPDATA%\Code\User\keybindings.json
+ 
+# Install all extensions:
+cat extensions.txt | xargs -I{} code --install-extension {}
+```
+ 
+---
 
-*All configs in this repo are drop-in replacements. Back up your existing configs before copying.*
-
-## Security Best Practices
-
-- Download only from the official links listed in [Useful_Programms.md](./Useful_Programms.md)
+ 
+## 🔒 Security Best Practices
+ 
+- Download **only** from official links in [Useful_Programms.md](./Useful_Programms.md)
 - Verify code signatures where available
-- Prefer portable versions to avoid unnecessary registry modifications
-- Use **HiBit Startup Manager** to review what runs at boot after installs
-
+- Prefer **portable** versions to avoid unnecessary registry modifications
+- Use **HiBit Startup Manager** to audit what runs at boot after installs
+- Back up existing configs before copying from this repo
 ---
-
-## Contributing
-
-1. **Report issues** — broken links, outdated tools, missing entries
-2. **Suggest tools** — open an issue with name, description, and official link
-3. **Improve docs** — fix typos, add usage guides, update configs
-
-Please follow the existing format and link only to official sources.
-
+ 
+## 🤝 Contributing
+ 
+```mermaid
+flowchart LR
+    A["Found a bug\nor broken link?"] --> B["Open an Issue"]
+    C["Want to add\na tool?"] --> D["Open Issue:\nname + desc + official link"]
+    E["Want to improve\ndocs?"] --> F["Fork → Edit → PR"]
+    B --> G["Maintainer reviews"]
+    D --> G
+    F --> G
+    G --> H["Merged ✅"]
+ 
+    style H fill:#1e1e2e,color:#a6e3a1,stroke:#a6e3a1
+    style G fill:#313244,color:#fab387,stroke:#fab387
+```
+ 
+1. **Report** — broken links, outdated tools, missing entries
+2. **Suggest** — open an issue with name, description, and official link only
+3. **Improve** — fix typos, add usage notes, update configs
+> Link only to official sources. Follow the existing format.
+ 
 ---
-
-## License
-
-This repository is distributed under the **MIT License**. Individual tools have their own licenses — see each project's documentation for details.
+ 
+## 📜 License
+ 
+Distributed under the **MIT License**.
+Individual tools retain their own licenses — see each project's documentation.
+ 
+---
+ 
+<div align="center">
+**Made with ☕ cappuccino vibes on Windows 11**
+ 
+[⬆ Back to top](#-win-11-config)
+ 
+</div>
 
