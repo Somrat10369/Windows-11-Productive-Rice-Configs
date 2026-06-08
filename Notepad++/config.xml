@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no" bookmarkLine="no" purge="no">
+        <Filter name="" />
+        <Find name="&lt;style>" />
+        <Find name="style" />
+        <Find name="Passed" />
+        <Find name="Failed" />
+        <Find name="이" />
+        <Find name="Class Roll Student Name GPA Pass/Fail" />
+        <Find name="1st Semester Exam (1st Year HSC - Science Session :2025-2026)" />
+        <Find name="Passed/Fail List" />
+        <Find name="Abdul Kadir Mollah City College" />
+        <Find name="0151" />
+        <Replace name="" />
+        <Replace name="0" />
+        <Replace name="1st Semester Exam (1st Year HSC - Science Session :2025-2026)" />
+        <Replace name="+880" />
+        <Replace name="+008" />
+        <Replace name="&quot; ," />
+        <Replace name="&quot;" />
+        <Replace name="(https:/" />
+        <Replace name="[Password.txt]( https://mega.co.nz/#!hMxWSA6L!KoTzck0sutJ9QZXrwcwEhSnTIjebgkMgotNeNm3Km3M)" />
+        <Replace name="]()" />
+        <Replace name="()" />
+    </FindHistory>
+    <History nbMaxFile="10" inSubMenu="no" customLength="0">
+        <File filename="C:\Program Files\Nilesoft Shell\shell.nss" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\Gemini_curated.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\Claude_curated.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\ChatGpt_Curated.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\Grok_curated.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\Claude_unguided.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\Grok_unguided.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\ChatGpt_unguided.txt" />
+        <File filename="C:\Users\Md. Nadim Mahmud\Downloads\Agi\Gemini_unguided.txt" />
+        <File filename="C:\Program Files\Notepad++\result.py" />
+    </History>
+    <ProjectPanels>
+        <ProjectPanel id="0" workSpaceFile="" />
+        <ProjectPanel id="1" workSpaceFile="" />
+        <ProjectPanel id="2" workSpaceFile="" />
+    </ProjectPanels>
+    <ColumnEditor choice="number">
+        <text content="" />
+        <number initial="-1" increase="-1" repeat="-1" formatChoice="dec" leadingChoice="none" />
+    </ColumnEditor>
+    <GUIConfigs>
+        <GUIConfig name="ToolBar" visible="yes" fluentColor="8" fluentCustomColor="7169003" fluentMono="yes">small</GUIConfig>
+        <GUIConfig name="StatusBar">hide</GUIConfig>
+        <GUIConfig name="TabBar" dragAndDrop="yes" drawTopBar="yes" drawInactiveTab="yes" reduce="yes" closeButton="no" pinButton="yes" showOnlyPinnedButton="no" buttonsOninactiveTabs="no" doubleClick2Close="no" vertical="no" multiLine="no" hide="no" quitOnEmpty="no" tabCompactLabelLen="0" />
+        <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
+        <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
+        <GUIConfig name="TabSetting" replaceBySpace="yes" size="4" backspaceUnindent="no" />
+        <GUIConfig name="AppPosition" x="2" y="10" width="2556" height="1380" isMaximized="no" />
+        <GUIConfig name="FindWindowPosition" left="1552" top="531" right="2289" bottom="973" isLessModeOn="no" />
+        <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" FiF_ignoreunsavedChangesInOpenedFiles="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20250605" autoUpdateMode="0">yes</GUIConfig>
+        <GUIConfig name="Auto-detection">yes</GUIConfig>
+        <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
+        <GUIConfig name="TrayIcon">0</GUIConfig>
+        <GUIConfig name="MaintainIndent">1</GUIConfig>
+        <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
+        <GUIConfig name="RememberLastSession">yes</GUIConfig>
+        <GUIConfig name="KeepSessionAbsentFileEntries">no</GUIConfig>
+        <GUIConfig name="DetectEncoding">yes</GUIConfig>
+        <GUIConfig name="SaveAllConfirm">yes</GUIConfig>
+        <GUIConfig name="NewDocDefaultSettings" format="0" encoding="4" lang="0" codepage="-1" openAnsiAsUTF8="no" addNewDocumentOnStartup="no" useContentAsTabName="yes" />
+        <GUIConfig name="langsExcluded" gr0="162" gr1="92" gr2="37" gr3="251" gr4="234" gr5="63" gr6="221" gr7="249" gr8="255" gr9="251" gr10="157" gr11="107" gr12="0" langMenuCompact="yes" />
+        <GUIConfig name="Print" lineNumber="yes" printOption="3" headerLeft="" headerMiddle="" headerRight="" footerLeft="" footerMiddle="" footerRight="" headerFontName="" headerFontStyle="0" headerFontSize="0" footerFontName="" footerFontStyle="0" footerFontSize="0" margeLeft="0" margeRight="0" margeTop="0" margeBottom="0" />
+        <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" isSnapshotMode="yes" snapshotBackupTiming="7000" />
+        <GUIConfig name="TaskList">yes</GUIConfig>
+        <GUIConfig name="MRU">yes</GUIConfig>
+        <GUIConfig name="URL">2</GUIConfig>
+        <GUIConfig name="uriCustomizedSchemes">svn:// cvs:// git:// imap:// irc:// irc6:// ircs:// ldap:// ldaps:// news: telnet:// gopher:// ssh:// sftp:// smb:// skype: snmp:// spotify: steam:// sms: slack:// chrome:// bitcoin:</GUIConfig>
+        <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
+        <GUIConfig name="auto-completion" autoCAction="3" triggerFromNbChar="1" autoCIgnoreNumbers="yes" insertSelectedItemUseENTER="yes" insertSelectedItemUseTAB="yes" autoCBrief="no" funcParams="yes" />
+        <GUIConfig name="auto-insert" parentheses="yes" brackets="yes" curlyBrackets="yes" quotes="yes" doubleQuotes="yes" htmlXmlTag="yes" />
+        <GUIConfig name="sessionExt"></GUIConfig>
+        <GUIConfig name="workspaceExt"></GUIConfig>
+        <GUIConfig name="MenuBar">hide</GUIConfig>
+        <GUIConfig name="Caret" width="1" blinkRate="600" />
+        <GUIConfig name="openSaveDir" value="0" defaultDirPath="" lastUsedDirPath="" />
+        <GUIConfig name="titleBar" short="no" />
+        <GUIConfig name="insertDateTime" customizedFormat="yyyy-MM-dd HH:mm:ss" reverseDefaultOrder="no" />
+        <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
+        <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
+        <GUIConfig name="largeFileRestriction" fileSizeMB="200" isEnabled="yes" allowAutoCompletion="yes" allowBraceMatch="no" allowSmartHilite="yes" allowClickableLink="yes" deactivateWordWrap="yes" suppress2GBWarning="no" />
+        <GUIConfig name="multiInst" setting="0" clipboardHistory="no" documentList="no" characterPanel="no" folderAsWorkspace="no" projectPanels="no" documentMap="no" fuctionList="no" pluginPanels="no" />
+        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" fileSwitcherExtWidth="50" fileSwitcherWithoutPathColumn="yes" fileSwitcherPathWidth="50" fileSwitcherNoGroups="no" backSlashIsEscapeCharacterForSql="yes" writeTechnologyEngine="1" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" sortFunctionList="no" saveDlgExtFilterToAllTypes="no" muteSounds="no" enableFoldCmdToggable="no" hideMenuRightShortcuts="yes" />
+        <GUIConfig name="Searching" monospacedFontFindDlg="no" fillFindFieldWithSelected="yes" fillFindFieldSelectCaret="yes" findDlgAlwaysVisible="no" confirmReplaceInAllOpenDocs="yes" replaceStopsWithoutFindingNext="no" inSelectionAutocheckThreshold="1024" fillFindWhatThreshold="1024" fillDirFieldFromActiveDoc="no" />
+        <GUIConfig name="searchEngine" searchEngineChoice="1" searchEngineCustom="" />
+        <GUIConfig name="MarkAll" matchCase="no" wholeWordOnly="yes" />
+        <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
+        <GUIConfig name="DarkMode" enable="yes" colorTone="32" customColorTop="2105376" customColorMenuHotTrack="4210752" customColorActive="4210752" customColorMain="2105376" customColorError="176" customColorText="14737632" customColorDarkText="12632256" customColorDisabledText="8421504" customColorLinkText="65535" customColorEdge="6579300" customColorHotEdge="10197915" customColorDisabledEdge="4737096" enableWindowsMode="yes" darkThemeName="Dracula.xml" darkToolBarIconSet="0" darkTbFluentColor="8" darkTbFluentCustomColor="7169003" darkTbFluentMono="yes" darkTabIconSet="2" darkTabUseTheme="no" lightThemeName="Deep Black.xml" lightToolBarIconSet="4" lightTbFluentColor="0" lightTbFluentCustomColor="2101460" lightTbFluentMono="no" lightTabIconSet="0" lightTabUseTheme="yes" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" lineNumberDynamicWidth="yes" bookMarkMargin="show" indentGuideLine="hide" folderMarkStyle="box" isChangeHistoryEnabled="1" lineWrapMethod="aligned" currentLineIndicator="1" currentLineFrameWidth="1" virtualSpace="no" scrollBeyondLastLine="yes" rightClickKeepsSelection="no" selectedTextForegroundSingleColor="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="6" zoom2="-2" whiteSpaceShow="hide" eolShow="hide" eolMode="1" npcShow="hide" npcMode="1" npcCustomColor="no" npcIncludeCcUniEOL="no" npcNoInputC0="yes" ccShow="yes" borderWidth="2" smoothFont="yes" paddingLeft="0" paddingRight="0" distractionFreeDivPart="4" lineCopyCutWithoutSelection="yes" disableSelectedTextDragDrop="no" multiSelection="yes" columnSel2MultiEdit="yes" />
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="528" topHeight="200" bottomHeight="200">
+            <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="PreviewHTML.dll" id="0" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="AnotherMarkdown.dll" id="0" curr="1" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Explorer.dll" id="1" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="0" curr="3" prev="-1" isVisible="no" />
+            <ActiveTabs cont="0" activeTab="-1" />
+            <ActiveTabs cont="1" activeTab="-1" />
+            <ActiveTabs cont="2" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="-1" />
+        </GUIConfig>
+    </GUIConfigs>
+</NotepadPlus>

@@ -22,7 +22,7 @@
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
       "x": 20,
-      "y": 16,
+      "y": 16
     },
   },
   "custom-ui-style.stylesheet": {
@@ -128,7 +128,7 @@
   "cSpell.userWords": [
     "cmnd"
   ],
-  "python.defaultInterpreterPath": "c:\\Users\\Md. Nadim Mahmud\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "python.defaultInterpreterPath": "c:\\Users\\<your user name>\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
   "liveServer.settings.donotShowInfoMsg": true,
   "files.associations": {
     "*.css": "css",
@@ -152,7 +152,7 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
   },
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.previewTheme": "vscode.css",
   "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
   "terminal.integrated.fontFamily": "monospace",
   "code-runner.clearPreviousOutput": true,
@@ -173,29 +173,7 @@
   "diffEditor.hideUnchangedRegions.enabled": true,
   "debug.breakpointsView.presentation": "tree",
   "yaml.schemas": {
-    "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.2.16-win32-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.2.17-win32-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///home/ubuntu/.vscode-remote/extensions/continue.continue-1.2.17-linux-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.2.18-win32-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.2.21-win32-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.2.22-win32-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///c:/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.2.21-win32-x64/config-yaml-schema.json": "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.continue/config.yaml",
-    "file:///c%3A/Users/Md.%20Nadim%20Mahmud/.vscode/extensions/continue.continue-1.3.38-win32-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "file:///c%3A/Users/**your username**/.vscode/extensions/continue.continue-1.3.38-win32-x64/config-yaml-schema.json": [
+    "file:///c%3A/Users/<your user name>/.vscode/extensions/continue.continue-1.2.22-win32-x64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   },
@@ -212,9 +190,27 @@
   "chat.mcp.gallery.enabled": true,
   "animations.Enabled": true,
   "vscode_custom_css.imports": [
-    "file://c:\\Users\\**your username**\\.vscode\\extensions\\zykowal.editor-cursor-animation-0.0.1\\out\\animation.js"
+    "file://c:\\Users\\<your user name>\\.vscode\\extensions\\zykowal.editor-cursor-animation-0.0.1\\out\\animation.js"
   ],
   "workbench.activityBar.location": "top",
-  "chat.unifiedAgentsBar.enabled": true,
+  "markdown-preview-enhanced.codeBlockTheme": "vscode.css",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticDelay": 2000,
+  "codeforces.handle": "<your user name>",
+  "workbench.browser.showInTitleBar": true,
+  "workbench.navigationControl.enabled": false,
+  "editor.codeActions.triggerOnFocusChange": true,
+  "git.enableSmartCommit": true,
+  "cph.general.defaultLanguage": "python",
+  "cph.general.doTemplateFileVariableReplacement": true,
+  "cph.general.includeProblemIndex": true,
+  "cph.general.autoShowJudge": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "workbench.statusBar.visible": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "diffEditor.maxComputationTime": 0,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
 }
