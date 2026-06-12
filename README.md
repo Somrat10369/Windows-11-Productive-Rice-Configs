@@ -38,9 +38,19 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 
 ---
 
+## Quick Links
+
+- [Awesome Tools Catalog](./Awesome-Windows-11-Tools.md) — All 50+ tools with descriptions and direct download links
+- [Quick Start](#-quick-start) — Install essentials in minutes
+- [Gallery](#-gallery) — Visual showcase
+
+---
+
 ## 🔍 Features
 
 ✅ Windows 11 customization
+
+✅ [Awesome-Windows-11-Tools](./Awesome-Windows-11-Tools.md)
 
 ✅ Windows 11 productivity workflow
 
@@ -104,10 +114,14 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 
 ---
 
+## 🔑 Keywords
+
+Windows 11 Setup, Windows 11 Customization, Windows 11 Productivity, Windows 11 Power User, Windows 11 Developer Setup, Windows Terminal Config, PowerShell Config, GlazeWM Config, YASB Config, Flow Launcher Setup, Yazi Configuration, VS Code Settings, Windows Dotfiles, Windows Rice, Windows Workflow, Windows Developer Environment, Tiling Window Manager Windows, Linux-like Windows Setup, Windows Productivity Tools
+
 ## 📸 Gallery
 
-![Windows 11 Ultimate Setup](Assets/Windows.png)
-![Terminal](Assets/Terminal.png)
+![Windows 11 GlazeWM tiling window manager desktop setup](Assets/Windows.png)
+![Windows 11 Terminal with Oh My Posh, Atuin and Yazi configuration](Assets/Terminal.png)
 ![Browser](Assets/Vivaldi.png)
 ![Todo list](Assets/Yasb_Widget_Showcase_Todo.png)
 ![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
@@ -117,19 +131,20 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 ![System Monitor](Assets/Btop.png)
 ![File Pilot](Assets/File_Pilot.png)
 ![Neovide](Assets/Neovide.png)
-![Notepad](Assets/Notepad++.png)
+![Notepad++](Assets/Notepad++.png)
 ![Torrenter](Assets/Qbtorrent.png)
-![Status Bar](Assets/Yasb_Bar_Yasb_Bar_20260406_004705.png)
+![YASB status bar for Windows 11 productivity workflow](Assets/Yasb_Bar_Yasb_Bar_20260406_004705.png)
 ![Local Private Ai](Assets/Yasb_Widget_Showcase_Ai_Chat.png)
 ![Status](Assets/Yasb_Widget_Showcase_Memory.png)
-![Winver](Assets/Winver.png)
-![Sign off](Assets/Sign_Off.png)
+![Custom Winver Revemp](Assets/Winver.png)
+![Sleek Sign off Menu](Assets/Sign_Off.png)
 ![Notes](Assets/Yasb_Widget_Showcase_Notes.png)
 ![Flow Launcher](Assets/Flow_Launcher.png)
 ![Wallpaper](Assets/Wallpaper_Selection.png)
 ![Msi After Burner](Assets/Msi_After_Burner.png)
 
 ---
+
 ## 📐 System Architecture
 
 How all the layers fit together — from the OS kernel up to what you actually see and touch:
@@ -171,40 +186,6 @@ graph TD
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-Win-11-Config/
-├── Assets/               ← Screenshots & gallery images
-├── Atuin/                ← Shell history config
-├── Claude/               ← AI assistant config
-├── Discord - vencord/    ← Vencord theme & plugins
-├── Fastfetch/            ← System info display
-├── File Pilot/           ← Lightweight file manager
-├── Flow Launcher/        ← App launcher (Alt+Space)
-├── Glazewm/              ← Tiling WM config.yaml
-├── Nilesoft Shell/       ← Right-click menu
-├── Notepad++/            ← Editor theme & settings
-├── Oh-My-Posh/           ← Shell prompt theme
-├── Qbtorrent/            ← Torrent client config
-├── Tacky-Borders/        ← Window border colors
-├── Terminal/             ← Windows Terminal settings
-├── Unigetui/             ← Package manager GUI
-├── Vivaldi/              ← Browser config
-├── Vscode/               ← Editor settings + keybinds
-├── W11 Cursor Dark Smooth/
-├── Wallpaper/            ← Curated wallpapers
-├── Win 11 Themes/        ← Custom .msstyles
-├── Windhawk/             ← UI mod configs
-├── Yasb/                 ← Status bar config + CSS
-├── Yazi/                 ← Terminal file manager
-├── Useful_Programms.md   ← Full 50+ tool catalog
-└── README.md
-```
-
----
-
-
 ## ⚡ Quick Start
 
 ### Prerequisites
@@ -212,6 +193,7 @@ Win-11-Config/
 - Windows 11 (most tools work on Windows 10 too)
 - Administrator access
 - PowerShell 7+ recommended
+
 ### Method 1 — Winget (Fastest)
 
 ```powershell
@@ -539,10 +521,20 @@ flowchart LR
 
 <br>
 
+## Acknowledgements
+
+See the full list of [contributors and projects here](ACKNOWLEDGEMENTS.md).
+
+---
+
 ## 📜 License
 
 Distributed under the **MIT License**.
 Individual tools retain their own licenses — see each project's documentation.
+
+---
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Somrat10369/Win-11-Config&type=Date)](https://star-history.com/#Somrat10369/Win-11-Config&Date)
 
 ---
 
