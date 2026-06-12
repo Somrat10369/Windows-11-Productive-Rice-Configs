@@ -1,5 +1,5 @@
 {
-  "version": "2026.422.1301",
+  "version": "2026.607.1724",
   "developerMode": true,
   "showBlockedCount": false,
   "rulesets": [
@@ -39,11 +39,14 @@
       "fitgirl-repacks.website"
     ],
     "basic": [
-      "www.reddit.com"
+      "www.reddit.com",
+      "codeforces.com"
     ],
     "optimal": [
-      "all-urls"
+      "marisaoj.com"
     ],
-    "complete": []
+    "complete": [
+      "all-urls"
+    ]
   }
 }
