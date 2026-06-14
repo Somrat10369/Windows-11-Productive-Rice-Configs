@@ -2,13 +2,17 @@
 
 # Windows 11 Power User Setup & Config Collection
 
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010-blue)](https://www.microsoft.com/windows) [![Tools](https://img.shields.io/badge/Tools-50%2B-purple)](./Useful_Programms.md)
+
 A complete Windows 11 productivity, customization, and developer setup featuring GlazeWM, YASB, Flow Launcher, Yazi, Windows Terminal, VS Code, PowerShell, Windhawk, themes, and 50+ recommended tools.
 
 Turn Windows 11 into a fast, keyboard-driven workstation inspired by Linux workflows such as i3, Hyprland, tmux, and modern developer environments.
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010-blue)](https://www.microsoft.com/windows) [![Tools](https://img.shields.io/badge/Tools-50%2B-purple)](./Useful_Programms.md)
-
 </div>
+
+## 🔑 Keywords
+
+Windows 11 Setup, Windows 11 Customization, Windows 11 Productivity, Windows 11 Power User, Windows 11 Developer Setup, Windows Terminal Config, PowerShell Config, GlazeWM Config, YASB Config, Flow Launcher Setup, Yazi Configuration, VS Code Settings, Windows Dotfiles, Windows Rice, Windows Workflow, Windows Developer Environment, Tiling Window Manager Windows, Linux-like Windows Setup, Windows Productivity Tools
 
 ---
 
@@ -114,9 +118,6 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 
 ---
 
-## 🔑 Keywords
-
-Windows 11 Setup, Windows 11 Customization, Windows 11 Productivity, Windows 11 Power User, Windows 11 Developer Setup, Windows Terminal Config, PowerShell Config, GlazeWM Config, YASB Config, Flow Launcher Setup, Yazi Configuration, VS Code Settings, Windows Dotfiles, Windows Rice, Windows Workflow, Windows Developer Environment, Tiling Window Manager Windows, Linux-like Windows Setup, Windows Productivity Tools
 
 ## 📸 Gallery
 
