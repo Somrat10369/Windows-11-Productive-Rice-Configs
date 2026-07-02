@@ -10,6 +10,35 @@ Turn Windows 11 into a fast, keyboard-driven workstation inspired by Linux workf
 
 </div>
 
+## 📸 Gallery
+
+![Windows 11 GlazeWM tiling window manager desktop setup](Assets/Windows.png)
+![Windows 11 Terminal with Oh My Posh, Atuin and Yazi configuration](Assets/Terminal.png)
+![Browser](Assets/Vivaldi.png)
+![Todo list](Assets/Yasb_Widget_Showcase_Todo.png)
+![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
+![Cli file manager](Assets/Yazi.png)
+![Downloader Cli](Assets/Surge_Cli.png)
+![Vs Code](Assets/Vscode.png)
+![System Monitor](Assets/Btop.png)
+![File Pilot](Assets/File_Pilot.png)
+![Neovide](Assets/Neovide.png)
+![Notepad++](Assets/Notepad++.png)
+![Torrenter](Assets/Qbtorrent.png)
+![YASB status bar for Windows 11 productivity workflow](Assets/Yasb_Bar_Yasb_Bar_20260406_004705.png)
+![Local Private Ai](Assets/Yasb_Widget_Showcase_Ai_Chat.png)
+![Status](Assets/Yasb_Widget_Showcase_Memory.png)
+![Custom Winver Revemp](Assets/Winver.png)
+![Sleek Sign off Menu](Assets/Sign_Off.png)
+![Notes](Assets/Yasb_Widget_Showcase_Notes.png)
+![Flow Launcher](Assets/Flow_Launcher.png)
+![Wallpaper](Assets/Wallpaper_Selection.png)
+![Msi After Burner](Assets/Msi_After_Burner.png)
+
+*If you found these configs helpful for your productivity setup, consider giving this repo a ⭐*
+
+---
+
 ## 🔑 Keywords
 
 Windows 11 Setup, Windows 11 Customization, Windows 11 Productivity, Windows 11 Power User, Windows 11 Developer Setup, Windows Terminal Config, PowerShell Config, GlazeWM Config, YASB Config, Flow Launcher Setup, Yazi Configuration, VS Code Settings, Windows Dotfiles, Windows Rice, Windows Workflow, Windows Developer Environment, Tiling Window Manager Windows, Linux-like Windows Setup, Windows Productivity Tools
@@ -81,35 +110,6 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 ✅ Privacy and quality-of-life improvements
 
 ✅ 50+ recommended Windows tools
-
----
-
-## 📸 Gallery
-
-![Windows 11 GlazeWM tiling window manager desktop setup](Assets/Windows.png)
-![Windows 11 Terminal with Oh My Posh, Atuin and Yazi configuration](Assets/Terminal.png)
-![Browser](Assets/Vivaldi.png)
-![Todo list](Assets/Yasb_Widget_Showcase_Todo.png)
-![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
-![Cli file manager](Assets/Yazi.png)
-![Downloader Cli](Assets/Surge_Cli.png)
-![Vs Code](Assets/Vscode.png)
-![System Monitor](Assets/Btop.png)
-![File Pilot](Assets/File_Pilot.png)
-![Neovide](Assets/Neovide.png)
-![Notepad++](Assets/Notepad++.png)
-![Torrenter](Assets/Qbtorrent.png)
-![YASB status bar for Windows 11 productivity workflow](Assets/Yasb_Bar_Yasb_Bar_20260406_004705.png)
-![Local Private Ai](Assets/Yasb_Widget_Showcase_Ai_Chat.png)
-![Status](Assets/Yasb_Widget_Showcase_Memory.png)
-![Custom Winver Revemp](Assets/Winver.png)
-![Sleek Sign off Menu](Assets/Sign_Off.png)
-![Notes](Assets/Yasb_Widget_Showcase_Notes.png)
-![Flow Launcher](Assets/Flow_Launcher.png)
-![Wallpaper](Assets/Wallpaper_Selection.png)
-![Msi After Burner](Assets/Msi_After_Burner.png)
-
-*If you found these configs helpful for your productivity setup, consider giving this repo a ⭐*
 
 ---
 
