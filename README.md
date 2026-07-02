@@ -44,9 +44,9 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 
 ## Quick Links
 
-- [Awesome Tools Catalog](./Awesome-Windows-11-Tools.md) — All 50+ tools with descriptions and direct download links
-- [Quick Start](#-quick-start) — Install essentials in minutes
-- [Gallery](#-gallery) — Visual showcase
+- [**Awesome Tools Catalog**](./Awesome-Windows-11-Tools.md) — All 50+ tools with descriptions and direct download links
+- [**Quick Start**](#-quick-start) — Install essentials in minutes
+- [**Gallery**](#-gallery) — Visual showcase
 
 ---
 
@@ -84,41 +84,6 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 
 ---
 
-## 🎯 Perfect For
-
-- Windows Power Users
-- Developers
-- Software Engineers
-- System Administrators
-- Terminal Enthusiasts
-- Linux Users Moving To Windows
-- Productivity Nerds
-- Students
-- Content Creators
-- Homelab Users
-
----
-
-## 🏆 Core Technologies
-
-| Category           | Tools            |
-| ------------------ | ---------------- |
-| Window Management  | GlazeWM          |
-| Status Bar         | YASB             |
-| Launcher           | Flow Launcher    |
-| Terminal           | Windows Terminal |
-| Shell              | PowerShell 7     |
-| Prompt             | Oh My Posh       |
-| File Manager       | Yazi             |
-| Editor             | VS Code          |
-| Browser            | Vivaldi          |
-| UI Tweaks          | Windhawk         |
-| Context Menu       | Nilesoft Shell   |
-| Package Management | WinGet, UniGetUI |
-
----
-
-
 ## 📸 Gallery
 
 ![Windows 11 GlazeWM tiling window manager desktop setup](Assets/Windows.png)
@@ -143,6 +108,8 @@ Whether you're a developer, student, sysadmin, gamer, or productivity enthusiast
 ![Flow Launcher](Assets/Flow_Launcher.png)
 ![Wallpaper](Assets/Wallpaper_Selection.png)
 ![Msi After Burner](Assets/Msi_After_Burner.png)
+
+*If you found these configs helpful for your productivity setup, consider giving this repo a ⭐*
 
 ---
 
@@ -219,6 +186,7 @@ winget install fastfetch-cli.fastfetch
 1. Install [UniGetUI](https://github.com/marticliment/UniGetUI/releases/latest)
 2. Search any tool across winget / Scoop / Chocolatey / pip / npm / cargo
 3. Click Install — done
+
 ### Method 3 — Chris Titus WinUtil
 
 ```powershell
@@ -299,6 +267,7 @@ winget install AmN.yasb
 ```
 
 Widgets included in this config:
+****
 - Workspaces (synced with GlazeWM)
 - Clock · CPU · RAM · GPU
 - Todo list · Notes · Local AI chat
