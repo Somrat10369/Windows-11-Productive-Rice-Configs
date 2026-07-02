@@ -35,7 +35,9 @@ Turn Windows 11 into a fast, keyboard-driven workstation inspired by Linux workf
 ![Wallpaper](Assets/Wallpaper_Selection.png)
 ![Msi After Burner](Assets/Msi_After_Burner.png)
 
-*If you found these configs helpful for your productivity setup, consider giving this repo a ⭐*
+---
+
+***If you found any one of these configs helpful for your setup, consider giving this repo a ⭐ to help others find it. You are a nice person***
 
 ---
 
