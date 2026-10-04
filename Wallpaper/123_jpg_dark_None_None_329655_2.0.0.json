@@ -1,0 +1,28 @@
+{
+    "checksum": "598a820d060d9e5e2b14d03fa89b8717",
+    "wallpaper": "C:/Essantials/Documents/Code/Win-11-Config/Wallpaper/123.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1224",
+        "foreground": "#c3c3c8",
+        "cursor": "#c3c3c8"
+    },
+    "colors": {
+        "color0": "#0f1224",
+        "color1": "#616579",
+        "color2": "#5D6C82",
+        "color3": "#6F748A",
+        "color4": "#857E8C",
+        "color5": "#7B869E",
+        "color6": "#8C95AD",
+        "color7": "#c3c3c8",
+        "color8": "#5e6074",
+        "color9": "#616579",
+        "color10": "#5D6C82",
+        "color11": "#6F748A",
+        "color12": "#857E8C",
+        "color13": "#7B869E",
+        "color14": "#8C95AD",
+        "color15": "#c3c3c8"
+    }
+}
