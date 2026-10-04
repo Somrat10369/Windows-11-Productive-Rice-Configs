@@ -7,13 +7,13 @@
 
 ## Glaze
 
-![0](Yasb\dynamic_pics\0.png)
-![1](Yasb\dynamic_pics\1.png)
-![2](Yasb\dynamic_pics\2.png)
-![3](Yasb\dynamic_pics\3.png)
-![4](Yasb\dynamic_pics\4.png)
-![5](Yasb\dynamic_pics\5.png)
-![6](Yasb\dynamic_pics\6.png)
-![7](Yasb\dynamic_pics\7.png)
-![8](Yasb\dynamic_pics\8.png)
-![9](Yasb\dynamic_pics\9.png)
+![0](Yasb/dynamic_pics/0.png)
+![1](Yasb/dynamic_pics/1.png)
+![2](Yasb/dynamic_pics/2.png)
+![3](Yasb/dynamic_pics/3.png)
+![4](Yasb/dynamic_pics/4.png)
+![5](Yasb/dynamic_pics/5.png)
+![6](Yasb/dynamic_pics/6.png)
+![7](Yasb/dynamic_pics/7.png)
+![8](Yasb/dynamic_pics/8.png)
+![9](Yasb/dynamic_pics/9.png)
