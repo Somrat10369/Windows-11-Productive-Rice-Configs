@@ -1,5 +1,5 @@
 
-# ![Glazing Mocha](https://github.com/amnweb/yasb-themes/tree/main/themes/c5ec9e92-6d12-408d-9b8c-1d68c86348ca)
+# [Glazing Mocha](https://github.com/amnweb/yasb-themes/tree/main/themes/c5ec9e92-6d12-408d-9b8c-1d68c86348ca)
 
 **If you got rickrolled, ╰(*°▽°*)╯**
 
