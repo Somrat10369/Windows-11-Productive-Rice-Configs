@@ -269,45 +269,6 @@ widgets:
       update_interval: 2000
     type: yasb.gpu.GpuWidget
 
-  media:
-    options:
-      callbacks:
-        on_left: toggle_label
-        on_middle: toggle_play_pause
-        on_right: toggle_media_menu
-      controls_hide: false
-      controls_left: true
-      controls_only: false
-      hide_empty: true
-      icons:
-        next_track: 
-        pause: 
-        play: 
-        prev_track: 
-      label: "{title}{s}{artist}"
-      label_alt: "{title}"
-      max_field_size:
-        label: 22
-        label_alt: 30
-      media_menu:
-        alignment: center
-        blur: true
-        border_color: system
-        direction: down
-        offset_left: 0
-        offset_top: 6
-        round_corners: true
-        round_corners_type: normal
-        show_source: true
-        thumbnail_corner_radius: 8
-        thumbnail_size: 120
-      separator: " - "
-      show_thumbnail: true
-      thumbnail_alpha: 80
-      thumbnail_corner_radius: 12
-      thumbnail_padding: 8
-    type: yasb.media.MediaWidget
-
   memory:
     options:
       callbacks:
