@@ -1,8 +1,10 @@
+# Load the generated colors from wal, typically located at $HOME\.cache\wal\colors.json
 $colorsPath = "$HOME\.cache\wal\colors.json"
+# Convert the JSON colors to a PowerShell object
 $colors = Get-Content -Raw -Path $colorsPath | ConvertFrom-Json
-
+# Generate the @variables{} section
 $variablesSection = @"
-:root {
+:root{
     --backgroundcol: $($colors.special.background);
     --foregroundcol: $($colors.special.foreground);
     --cursorcol: $($colors.special.cursor);
@@ -24,15 +26,19 @@ $variablesSection = @"
     --colors15: $($colors.colors.color15);
 }
 "@
-
+# Read the existing styles.css file, typically located at $HOME\.config\yasb\styles.css
 $stylesPath = "$HOME\.config\yasb\styles.css"
 $stylesContent = Get-Content -Raw -Path $stylesPath
-
-if ($stylesContent -match ":root\s*\{[\s\S]*?\}") {
-  $newStylesContent = $stylesContent -replace ":root\s*\{[\s\S]*?\}", $variablesSection
+# Check if :root{} section exists, if so replace it, otherwise prepend it
+if ($stylesContent -match ":root\{[\s\S]*?\}") {
+  # Replace the existing :root{} section
+  $newStylesContent = $stylesContent -replace ":root\{[\s\S]*?\}", $variablesSection
 }
 else {
+  # Prepend the new :root{} section
   $newStylesContent = "$variablesSection`n$stylesContent"
 }
-
-$newStylesContent.TrimEnd() | Set-Content -Path $stylesPath
+# Trim trailing whitespace from the content
+$newStylesContent = $newStylesContent.TrimEnd()
+# Write the updated content back to styles.css
+$newStylesContent | Set-Content -Path $stylesPath   
