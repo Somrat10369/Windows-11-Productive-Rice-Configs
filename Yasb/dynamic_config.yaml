@@ -523,7 +523,7 @@ widgets:
         image_width: 369
         orientation: portrait
         type: magnified
-      image_path: "{username}- put image path here"
+      image_path: "{image_path}"
       keybindings:
         - action: change_wallpaper
           keys: ctrl+alt+w
