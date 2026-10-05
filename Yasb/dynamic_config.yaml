@@ -571,7 +571,7 @@ widgets:
       run_after:
         - wal -s -t -e -q -n -i {image}
         - cmd.exe /c start /min pwsh C:\Users\{username}\.config\yasb\yasb.ps1
-      update_interval: 120
+      update_interval: 300
     type: yasb.wallpapers.WallpapersWidget
 
   wifi:
