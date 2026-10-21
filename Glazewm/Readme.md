@@ -65,28 +65,32 @@ A minimal, ergonomic, and keyboard-driven window manager configuration for Windo
 | Exit GlazeWM  | `Alt+Shift+E` |
 
 ## Installation
+
 1. Download GlazeWM from the official repository
 2. Copy this configuration to your GlazeWM config directory
 3. Restart GlazeWM or reload the configuration
 
 ## Requirements
- - [GlazeWM](https://github.com/glzr-io/glazewm/releases/latest) `winget install GlazeWM`
- - [GatGWM](https://github.com/Dutch-Raptor/glazetiler) for alternating tiling.
- - [Taskbar Hide](https://github.com/amnweb/thide)
+
+- [GlazeWM](https:/github.com/glzr-ioglazewm/releaseslatest) `wingetinstall GlazeWM`
+- [GatGWM](https:/github.comDutch-Raptorglazetiler) foralternating tiling.
+- [Taskbar Hide](https://github.comamnweb/thide)
 
 ## Troubleshooting
 
 ### Windows not tiling
+
 - Check that the window isn't in the ignore list
+
 - Try cycling focus with `Alt+Shift+Space`
 - Verify the window isn't fullscreen
 
 ### Cursor not jumping
+
 - Ensure `cursor_jump.enabled` is set to `true`
 - Check that focus follows cursor is disabled
 
 ### Config not reloading
+
 - Try `Alt+Shift+R` manually
 - Check for syntax errors in the configuration file
-
-
