@@ -14,8 +14,7 @@ Turn Windows 11 into a fast, keyboard-driven workstation inspired by Linux workf
 
 ![Windows 11 GlazeWM tiling window manager desktop setup](Assets/Windows.png)
 ![Windows 11 Terminal with Oh My Posh, Atuin and Yazi configuration](Assets/Terminal.png)
-![Browser](Assets/Vivaldi.png)
-![Todo list](Assets/Yasb_Widget_Showcase_Todo.png)
+![Browser](Vivaldi\Assets\real_landing_page.png)
 ![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
 ![Cli file manager](Assets/Yazi.png)
 ![Downloader Cli](Assets/Surge_Cli.png)
