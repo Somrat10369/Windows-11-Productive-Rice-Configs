@@ -32,11 +32,11 @@ A customized Vivaldi setup focused on a clean interface, practical navigation, a
 
 ## Gallery
 
-![Homepage](real_landing_page.png)
+![Homepage](Assets\real_landing_page.png)
 
 <p align="center"><b>Homepage</b></p>
 
-![Sidebar](landing_page(sidebar).png)
+![Sidebar](Assets\landing_page(sidebar).png)
 
 <p align="center">Sidebar</p>
 
