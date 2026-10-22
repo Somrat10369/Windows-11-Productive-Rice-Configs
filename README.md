@@ -14,7 +14,7 @@ Turn Windows 11 into a fast, keyboard-driven workstation inspired by Linux workf
 
 ![Windows 11 GlazeWM tiling window manager desktop setup](Assets/Windows.png)
 ![Windows 11 Terminal with Oh My Posh, Atuin and Yazi configuration](Assets/Terminal.png)
-![Browser](Vivaldi\Assets\real_landing_page.png)
+![Browser](Vivaldi/Assets/real_landing_page.png)
 ![Enhanced Context Menu](Assets/Nilesoft_Shell.png)
 ![Cli file manager](Assets/Yazi.png)
 ![Downloader Cli](Assets/Surge_Cli.png)
@@ -122,28 +122,28 @@ How all the layers fit together — from the OS kernel up to what you actually s
 graph TD
     OS["🪟 Windows 11 Kernel"]
 
-    OS --> WM["GlazeWM\nTiling Window Manager"]
-    OS --> SHELL["PowerShell 7\n+ Oh-My-Posh Prompt"]
-    OS --> BAR["YASB\nStatus Bar"]
-    OS --> BORDER["Tacky Borders\nWindow Borders"]
-    OS --> THEME["Win11 Themes\n+ Windhawk Mods"]
+    OS --> WM["GlazeWM/nTiling Window Manager"]
+    OS --> SHELL["PowerShell 7/n+ Oh-My-Posh Prompt"]
+    OS --> BAR["YASB/nStatus Bar"]
+    OS --> BORDER["Tacky Borders/nWindow Borders"]
+    OS --> THEME["Win11 Themes/n+ Windhawk Mods"]
 
-    WM --> WORKSPACE["Workspaces\nAlt+1…9"]
-    WM --> KEYBINDS["Keybindings\nAlt+H/J/K/L"]
+    WM --> WORKSPACE["Workspaces/nAlt+1…9"]
+    WM --> KEYBINDS["Keybindings/nAlt+H/J/K/L"]
     WORKSPACE --> APP1["VS Code"]
     WORKSPACE --> APP2["Vivaldi Browser"]
     WORKSPACE --> APP3["Terminal / Yazi"]
 
-    SHELL --> ATUIN["Atuin\nShell History Search"]
-    SHELL --> FASTFETCH["Fastfetch\nSystem Info"]
-    SHELL --> YAZI["Yazi\nTerminal File Manager"]
+    SHELL --> ATUIN["Atuin/nShell History Search"]
+    SHELL --> FASTFETCH["Fastfetch/nSystem Info"]
+    SHELL --> YAZI["Yazi/nTerminal File Manager"]
 
     BAR --> WIDGET1["Clock · CPU · RAM"]
     BAR --> WIDGET2["Workspaces Display"]
     BAR --> WIDGET3["Todo · Notes · AI Chat"]
 
     THEME --> CURSOR["W11 Dark Smooth Cursor"]
-    THEME --> CTX["Nilesoft Shell\nContext Menu"]
+    THEME --> CTX["Nilesoft Shell/nContext Menu"]
 
     style OS fill:#1e1e2e,color:#cdd6f4,stroke:#89b4fa
     style WM fill:#313244,color:#cba6f7,stroke:#cba6f7
@@ -203,25 +203,25 @@ How to apply configs after cloning this repo:
 
 ```mermaid
 flowchart LR
-    A["git clone\nthis repo"] --> B["Pick a tool\nfolder"]
+    A["git clone/nthis repo"] --> B["Pick a tool/nfolder"]
     B --> C{Tool type?}
 
-    C -->|winget app| D["winget install\n<package-id>"]
-    C -->|portable exe| E["Download .exe\nplace anywhere"]
-    C -->|theme / skin| F["Requires patcher\nor installer"]
+    C -->|winget app| D["winget install/n<package-id>"]
+    C -->|portable exe| E["Download .exe/nplace anywhere"]
+    C -->|theme / skin| F["Requires patcher/nor installer"]
 
-    D --> G["Copy config\nfrom repo folder"]
+    D --> G["Copy config/nfrom repo folder"]
     E --> G
     F --> G
 
     G --> H{Where?}
 
-    H -->|GlazeWM| I["%USERPROFILE%\.glaze-wm\config.yaml"]
-    H -->|YASB| J["%USERPROFILE%\.yasb\"]
-    H -->|Oh-My-Posh| K["%USERPROFILE%\.config\oh-my-posh\"]
-    H -->|Yazi| L["%APPDATA%\yazi\config\"]
-    H -->|Terminal| M["%LOCALAPPDATA%\...\settings.json"]
-    H -->|VS Code| N["%APPDATA%\Code\User\"]
+    H -->|GlazeWM| I["%USERPROFILE%/.glaze-wm/config.yaml"]
+    H -->|YASB| J["%USERPROFILE%/.yasb/"]
+    H -->|Oh-My-Posh| K["%USERPROFILE%/.config/oh-my-posh/"]
+    H -->|Yazi| L["%APPDATA%/yazi/config/"]
+    H -->|Terminal| M["%LOCALAPPDATA%/.../settings.json"]
+    H -->|VS Code| N["%APPDATA%/Code/User/"]
 
     I --> Z["✅ Launch / Reload"]
     J --> Z
@@ -246,7 +246,7 @@ Inspired by i3 on Linux. Windows auto-tile. No mouse needed.
 
 ```powershell
 winget install glzr-io.glazewm
-# Config → %USERPROFILE%\.glaze-wm\config.yaml
+# Config → %USERPROFILE%/.glaze-wm/config.yaml
 ```
 
 | Action                   | Keybind                 |
@@ -264,7 +264,7 @@ winget install glzr-io.glazewm
 
 ```powershell
 winget install AmN.yasb
-# Config → %USERPROFILE%\.yasb\config.yaml + styles.css
+# Config → %USERPROFILE%/.yasb/config.yaml + styles.css
 ```
 
 Widgets included in this config:
@@ -282,7 +282,7 @@ Reload live: **Tray icon → Reload**
 ```powershell
 winget install JanDeDobbeleer.OhMyPosh
 # Add to $PROFILE:
-oh-my-posh init pwsh --config "$env:USERPROFILE\.config\oh-my-posh\theme.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:USERPROFILE/.config/oh-my-posh/theme.omp.json" | Invoke-Expression
 ```
 
 > ⚠️ Requires a [Nerd Font](https://www.nerdfonts.com/font-downloads) in your terminal for icons.
@@ -293,7 +293,7 @@ oh-my-posh init pwsh --config "$env:USERPROFILE\.config\oh-my-posh\theme.omp.jso
 
 ```powershell
 winget install Flow-Launcher.Flow-Launcher
-# Config → %APPDATA%\FlowLauncher\Settings\
+# Config → %APPDATA%/FlowLauncher/Settings/
 ```
 
 Hotkey: `Alt + Space`
@@ -307,7 +307,7 @@ Written in Rust. Fastest file manager available on Windows.
 
 ```powershell
 winget install sxyazi.yazi
-# Config → %APPDATA%\yazi\config\
+# Config → %APPDATA%/yazi/config/
 ```
 
 Add to PowerShell `$PROFILE` for directory-follow-on-exit:
@@ -351,7 +351,7 @@ And many more !
 
 ```
 Download: nilesoft.org/download
-Config → C:\Program Files\Nilesoft Shell\imports\
+Config → C:/Program Files/Nilesoft Shell/imports/
 Edit: shell.nss (changes apply live, no restart)
 ```
 
@@ -362,7 +362,7 @@ Edit: shell.nss (changes apply live, no restart)
 > Requires [UltraUxThemePatcher](https://melloware.com/ultrauxthemepatcher/) — install first, then restart.
 
 ```
-Copy .msstyles → C:\Windows\Resources\Themes\
+Copy .msstyles → C:/Windows/Resources/Themes/
 Settings → Personalization → Themes → select theme
 ```
 
@@ -372,7 +372,7 @@ Settings → Personalization → Themes → select theme
 
 ```
 Download from: github.com/lukeyou05/tacky-borders
-Config → %USERPROFILE%\.config\tacky-borders\config.yaml
+Config → %USERPROFILE%/.config/tacky-borders/config.yaml
 ```
 
 Edit `config.yaml` to set active/inactive colors and border width.
@@ -396,7 +396,7 @@ Replaces `Ctrl+R`. Searchable, syncable, timestamped history.
 ```powershell
 winget install VivaldiTechnologies.Vivaldi
 # Sync via built-in Vivaldi Sync
-# Manual config → %LOCALAPPDATA%\Vivaldi\User Data\Default\
+# Manual config → %LOCALAPPDATA%/Vivaldi/User Data/Default/
 ```
 
 Enable: Tab Stacking · Speed Dials · Custom Keyboard Shortcuts
@@ -407,8 +407,8 @@ Enable: Tab Stacking · Speed Dials · Custom Keyboard Shortcuts
 
 ```powershell
 winget install Microsoft.VisualStudioCode
-# settings.json  → %APPDATA%\Code\User\settings.json
-# keybindings    → %APPDATA%\Code\User\keybindings.json
+# settings.json  → %APPDATA%/Code/User/settings.json
+# keybindings    → %APPDATA%/Code/User/keybindings.json
 
 # Install all extensions:
 cat extensions.txt | xargs -I{} code --install-extension {}
@@ -430,9 +430,9 @@ cat extensions.txt | xargs -I{} code --install-extension {}
 
 ```mermaid
 flowchart LR
-    A["Found a bug\nor broken link?"] --> B["Open an Issue"]
-    C["Want to add\na tool?"] --> D["Open Issue:\nname + desc + official link"]
-    E["Want to improve\ndocs?"] --> F["Fork → Edit → PR"]
+    A["Found a bug/nor broken link?"] --> B["Open an Issue"]
+    C["Want to add/na tool?"] --> D["Open Issue:/nname + desc + official link"]
+    E["Want to improve/ndocs?"] --> F["Fork → Edit → PR"]
     B --> G["Maintainer reviews"]
     D --> G
     F --> G
