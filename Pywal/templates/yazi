@@ -1,0 +1,116 @@
+[mgr]
+cwd = {{ fg = "{color13}" }}
+
+hovered         = {{ reversed = true }}
+preview_hovered = {{ underline = true }}
+
+find_keyword  = {{ fg = "{color10}", bold = true, italic = true, underline = true }}
+find_position = {{ fg = "{color14}", bg = "reset", bold = true, italic = true }}
+
+marker_copied   = {{ fg = "{color11}", bg = "{color11}" }}
+marker_cut      = {{ fg = "{color8}", bg = "{color8}" }}
+marker_marked   = {{ fg = "{color13}", bg = "{color13}" }}
+marker_selected = {{ fg = "{color10}", bg = "{color10}" }}
+
+tab_active   = {{ reversed = true }}
+tab_inactive = {{}}
+tab_width    = 1
+
+count_copied   = {{ fg = "{color1}", bg = "{color11}" }}
+count_cut      = {{ fg = "{color1}", bg = "{color8}" }}
+count_selected = {{ fg = "{color1}", bg = "{color10}" }}
+
+border_symbol = "│"
+border_style  = {{ fg = "{color3}" }}
+
+syntect_theme = ""
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = {{ fg = "{color1}", bg = "{color1}" }}
+
+mode_normal = {{ bg = "{color13}", bold = true }}
+mode_select = {{ bg = "{color8}", bold = true }}
+mode_unset  = {{ bg = "{color8}", bold = true }}
+
+progress_label  = {{ bold = true }}
+progress_normal = {{ fg = "{color13}", bg = "{color0}" }}
+progress_error  = {{ fg = "{color8}", bg = "{color0}" }}
+
+permissions_t = {{ fg = "{color11}" }}
+permissions_r = {{ fg = "{color10}" }}
+permissions_w = {{ fg = "{color8}" }}
+permissions_x = {{ fg = "{color13}" }}
+permissions_s = {{ fg = "{color1}" }}
+
+[select]
+border   = {{ fg = "{color13}" }}
+active   = {{ fg = "{color14}", bold = true }}
+inactive = {{}}
+
+[input]
+border   = {{ fg = "{color13}" }}
+title    = {{}}
+value    = {{}}
+selected = {{ reversed = true }}
+
+[cmp]
+border   = {{ fg = "{color13}" }}
+active   = {{ reversed = true }}
+inactive = {{}}
+
+icon_file    = ""
+icon_folder  = ""
+icon_command = ""
+
+[tasks]
+border  = {{ fg = "{color13}" }}
+title   = {{}}
+hovered = {{ fg = "{color14}", underline = true }}
+
+[which]
+cols            = 3
+mask            = {{ bg = "{color0}" }}
+cand            = {{ fg = "{color12}" }}
+rest            = {{ fg = "{color2}" }}
+desc            = {{ fg = "{color14}" }}
+separator       = "  "
+separator_style = {{ fg = "{color2}" }}
+
+[help]
+on      = {{ fg = "{color13}" }}
+run     = {{ fg = "{color14}" }}
+desc    = {{}}
+hovered = {{ reversed = true, bold = true }}
+footer  = {{ fg = "{color1}", bg = "{color5}" }}
+
+[notify]
+title_info  = {{ fg = "{color11}" }}
+title_warn  = {{ fg = "{color10}" }}
+title_error = {{ fg = "{color8}" }}
+
+icon_info  = ""
+icon_warn  = ""
+icon_error = ""
+
+[filetype]
+
+rules = [
+	# Images
+	{{ mime = "image/*", fg = "{color13}" }},
+
+	# Media
+	{{ mime = "{{audio,video}}/*", fg = "{color14}" }},
+
+	# Archives
+	{{ mime = "application/*zip", fg = "{color8}" }},
+	{{ mime = "application/x-{{tar,bzip*,7z-compressed,xz,rar}}", fg = "{color8}" }},
+
+	# Documents
+	{{ mime = "application/{{pdf,doc,rtf,vnd.*}}", fg = "{color13}" }},
+
+	# Fallback
+	{{ name = "*", fg = "{color12}" }},
+	{{ name = "*/", fg = "{color11}" }}
+]
