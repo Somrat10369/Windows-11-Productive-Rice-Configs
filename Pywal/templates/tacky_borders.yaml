@@ -1,0 +1,41 @@
+watch_config_changes: True
+enable_logging: True
+rendering_backend: V2
+global:
+  border_width: 3
+  border_offset: -1
+  border_radius: Auto
+  border_z_order: AboveWindow
+  follow_native_border: True
+  initialize_delay: 200
+  unminimize_delay: 150
+  active_color: "{color6}"
+  inactive_color: "{color6}"
+window_rules:
+  - match: Class
+    name: 'Windows.UI.Core.CoreWindow'
+    enabled: False
+  - match: Class
+    name: 'XamlExplorerHostIslandWindow'
+    enabled: False
+  - match: Process
+    name: 'yasb.exe'
+    enabled: True
+  - match: Process
+    name: 'tacky-borders'
+    enabled: False
+  - match: Process
+    name: 'zebar'
+    enabled: False
+  - match: Title
+    name: 'komorebi-bar'
+    enabled: False
+  - match: Title
+    name: 'keyviz'
+    enabled: False
+  - match: Title
+    name: 'Picture-in-Picture'
+    enabled: False
+  - match: Process
+    name: 'seelen-ui'
+    enabled: False

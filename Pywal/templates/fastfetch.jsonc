@@ -1,0 +1,126 @@
+
+{
+  "logo": {
+    "type": "iterm",
+    "source": "~/.config/fastfetch/logo/catppuccin_logo.png",
+    "width": 40,
+    "padding": {
+      "top": 2,
+      "left": 2,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": " \u001b[38;5;12m\u001b[0m ",
+    "constants": [
+      "\u001b[38;5;1m─────────────────\u001b[0m"
+    ],
+    "key": {
+      "type": "icon",
+      "paddingLeft": 2
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;1m┌─────────────────\u001b[0m \u001b[38;5;12mHardware Information\u001b[0m \u001b[38;5;1m─────────────────┐\u001b[0m"
+    },
+    {
+      "type": "host",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "cpu",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "gpu",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "disk",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "memory",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "display",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;1m└──────────────────────────────────────────────────────────┘\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;1m┌─────────────────\u001b[0m \u001b[38;5;12mSoftware Information\u001b[0m \u001b[38;5;1m─────────────────┐\u001b[0m"
+    },
+    {
+      "type": "os",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "kernel",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "lm",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "de",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "wm",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "shell",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "terminal",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "font",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "theme",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "icons",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "packages",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "uptime",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "locale",
+      "keyColor": "{color13}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;1m└──────────────────────────────────────────────────────────┘\u001b[0m"
+    },
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 21
+    }
+  ]
+}
