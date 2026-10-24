@@ -23,8 +23,6 @@ Turn Windows 11 into a fast, keyboard-driven workstation inspired by Linux workf
 ![System Monitor](Assets/Btop.png)
 ![File Pilot](Assets/File_Pilot.png)
 ![Flow Launcher](Assets/Flow_Launcher.png)
-![Sleek Sign off Menu](Assets/Sign_Off.png)
-![Torrenter](Assets/Qbtorrent.png)
 
 ## 🤝 Contributing
 
