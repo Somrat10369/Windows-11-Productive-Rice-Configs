@@ -1,3 +1,4 @@
+![Yasb](../Assets/Yasb.png)
 
 # [Glazing Mocha](https://github.com/amnweb/yasb-themes/tree/main/themes/c5ec9e92-6d12-408d-9b8c-1d68c86348ca)
 
@@ -32,9 +33,8 @@ If you face any issues with the theme, please open an issue [here](https://githu
 
 - [GlazeWM](https://github.com/glzr-io/glazewm/releases) — Tiling window manager
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) - For Nerd Glyphs & Icons
-- [ImageMagick](https://imagemagick.org/)
- `winget install ImageMagick.ImageMagick`
 - [Pywal](https://github.com/eylles/pywal16)
  `pip install pywal16`
 - [Cava](https://github.com/karlstav/cava)
  `winget install -e --id karlstav.cava`
+- [Schemer2](https://github.com/thefryscorer/schemer2): `go install github.com/thefryscorer/schemer2@latest`
