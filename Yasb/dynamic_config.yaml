@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/amnweb/yasb/main/schema.json
-# Use find and replace to replace {username} with your username
+# Use find and replace to replace `{wallpaper_path}` with the path to your wallpaper.
 
 debug: false
 show_systray: true
@@ -40,7 +40,7 @@ bars:
         alignment: right
         stretch: true
     padding:
-      bottom: 0
+      bottom: 4
       left: 6
       right: 6
       top: 4
@@ -80,9 +80,7 @@ widgets:
   bin:
     options:
       callbacks:
-        on_left: >-
-          exec "C:/Users/{username}/Desktop/file_explorer.lnk"
-          shell:RecycleBinFolder
+        on_left: open_bin
         on_middle: do_nothing
         on_right: empty_bin
       icons:
@@ -211,7 +209,7 @@ widgets:
       callbacks:
         on_left: toggle_label
         on_middle: do_nothing
-        on_right: exec cmd /c start "" "C:/Users/{username}/Desktop/wiztree.lnk"
+        on_right: do_nothing
       disk_thresholds:
         high: 90
         low: 60
@@ -523,15 +521,14 @@ widgets:
         image_width: 369
         orientation: portrait
         type: magnified
-      image_path: "{image_path}"
+      image_path: "{wallpaper_path}" # replace it with your wallpaper path & use 'singe quote'.
       keybindings:
         - action: change_wallpaper
           keys: ctrl+alt+w
           screen: cursor
       label: <span>󰸉</span>
       run_after:
-        - wal -s -t -e -q -n -i {image}
-        - cmd.exe /c start /min pwsh C:\Users\{username}\.config\yasb\yasb.ps1
+        - "wal --backend schemer2 -s -t -e -q -n -i {image}"
       update_interval: 300
     type: yasb.wallpapers.WallpapersWidget
 
