@@ -1,0 +1,205 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "palette": {
+    "red": "#7291d4",
+    "peach": "#74a1ff",
+    "yellow": "#74a1ff",
+    "green": "#74a1ff",
+    "sapphire": "#98a0c7",
+    "lavender": "#89a8e8",
+    "crust": "#0d121f",
+    "text": "#c2c3c7"
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "background": "p:red",
+          "foreground": "p:crust",
+          "template": "{{ .Icon }} ",
+          "properties": {
+            "windows": "",
+            "ubuntu": "󰕈",
+            "suse": "",
+            "raspbian": "󰐿",
+            "mint": "󰣭",
+            "macos": "󰀵",
+            "manjaro": "",
+            "linux": "󰌽",
+            "gentoo": "󰣨",
+            "fedora": "󰣛",
+            "alpine": "0",
+            "amazon": "",
+            "android": "",
+            "aosc": "",
+            "arch": "󰣇",
+            "artix": "󰣇",
+            "centos": "",
+            "debian": "󰣚",
+            "redhat": "󱄛"
+          }
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:red",
+          "foreground": "p:crust",
+          "template": "{{ .UserName }}"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:peach",
+          "foreground": "p:crust",
+          "template": " {{ .Path }} ",
+          "properties": {
+            "style": "full",
+            "mapped_locations": {
+              "~/Documents": "󰈙 ",
+              "~/Downloads": " ",
+              "~/Music": "󰝚 ",
+              "~/Pictures": " ",
+              "~/Developer": "󰲋 "
+            }
+          }
+        },
+        {
+          "type": "time",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:peach",
+          "foreground": "p:crust",
+          "template": " {{ .CurrentDate | date \"15:04\" }} "
+        },
+        {
+          "type": "executiontime",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:peach",
+          "foreground": "p:crust",
+          "template": " in {{ .FormattedMs }} ",
+          "properties": {
+            "always_enabled": true
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:yellow",
+          "foreground": "p:crust",
+          "template": "  {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} 󰈔 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} 󰄬 {{ .Staging.String }}{{ end }} "
+        },
+        {
+          "type": "c",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "rust",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "go",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "php",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "java",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "kotlin",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "haskell",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }} "
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "p:green",
+          "foreground": "p:crust",
+          "template": "  {{ .Full }}{{ if .Venv }} ({{ .Venv }}){{ end }} "
+        },
+        {
+          "type": "text",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
+          "background": "p:lavender",
+          "foreground": "p:crust",
+          "template": ""
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "status",
+          "style": "plain",
+          "foreground": "p:green",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}p:red{{ end }}"
+          ],
+          "template": "❯ ",
+          "properties": {
+            "always_enabled": true
+          }
+        }
+      ]
+    }
+  ]
+}
