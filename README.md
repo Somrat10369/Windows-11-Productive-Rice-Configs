@@ -93,12 +93,6 @@ flowchart LR
 
   Absolutely. Every folder is designed to be used independently.
 
-<br>
-
-## Acknowledgements
-
-See the full list of [contributors and projects here](ACKNOWLEDGEMENTS.md).
-
 ---
 
 ## 📜 License
