@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.colorTheme": "Wal Bordered",
   "workbench.editor.showTabs": "single",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
@@ -87,9 +87,9 @@
   "editor.codeLens": false,
   "editor.links": false,
   "editor.matchBrackets": "never",
-  "editor.parameterHints.enabled": false,
+  "editor.parameterHints.enabled": true,
   "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": "off",
+  "editor.hover.enabled": "on",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "scm.diffDecorations": "none",
@@ -107,9 +107,9 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.quickSuggestions": {
-    "other": "off",
+    "other": "on",
   },
-  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggestOnTriggerCharacters": true,
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
   "emmet.triggerExpansionOnTab": true,
@@ -128,7 +128,7 @@
   "cSpell.userWords": [
     "cmnd"
   ],
-  "python.defaultInterpreterPath": "c:\\Users\\<your user name>\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "python.defaultInterpreterPath": "c:\\Users\\{username}\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
   "liveServer.settings.donotShowInfoMsg": true,
   "files.associations": {
     "*.css": "css",
@@ -162,8 +162,6 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "redhat.telemetry.enabled": false,
   "editor.formatOnSave": true,
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
   },
@@ -173,9 +171,34 @@
   "diffEditor.hideUnchangedRegions.enabled": true,
   "debug.breakpointsView.presentation": "tree",
   "yaml.schemas": {
-    "file:///c%3A/Users/<your user name>/.vscode/extensions/continue.continue-1.2.22-win32-x64/config-yaml-schema.json": [
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.22-win32-x64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
-    ]
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.24-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-2.0.0-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.16-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.17-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///home/ubuntu/.vscode-remote/extensions/continue.continue-1.2.17-linux-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.18-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.21-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c%3A/Users/{username}/.vscode/extensions/continue.continue-1.2.22-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///c:/Users/{username}/.vscode/extensions/continue.continue-1.2.21-win32-x64/config-yaml-schema.json": "file:///c%3A/Users/{username}/.continue/config.yaml"
   },
   "editor.inlineSuggest.edits.showCollapsed": true,
   "continue.enableNextEdit": true,
@@ -190,13 +213,13 @@
   "chat.mcp.gallery.enabled": true,
   "animations.Enabled": true,
   "vscode_custom_css.imports": [
-    "file://c:\\Users\\<your user name>\\.vscode\\extensions\\zykowal.editor-cursor-animation-0.0.1\\out\\animation.js"
+    "file://c:\\Users\\{username}\\.vscode\\extensions\\zykowal.editor-cursor-animation-0.0.1\\out\\animation.js",
+    "file:///c%3A/Users/{username}/.vscode/extensions/30d98f9b2.neovide-cursor-1.0.1/neovide-cursor.js"
   ],
-  "workbench.activityBar.location": "top",
   "markdown-preview-enhanced.codeBlockTheme": "vscode.css",
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.diagnosticDelay": 2000,
-  "codeforces.handle": "<your user name>",
+  "codeforces.handle": "{username}_10369",
   "workbench.browser.showInTitleBar": true,
   "workbench.navigationControl.enabled": false,
   "editor.codeActions.triggerOnFocusChange": true,
@@ -207,10 +230,16 @@
   "cph.general.autoShowJudge": false,
   "gitlens.views.commitDetails.files.layout": "tree",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.statusBar.visible": false,
   "liveServer.settings.donotVerifyTags": true,
   "diffEditor.maxComputationTime": 0,
   "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "yaml.disableSchemaDetection": [],
+  "workbench.editor.empty.hint": "hidden",
+  "chat.contextUsage.enabled": false,
+  "editor.inlineSuggest.edits.longDistanceHintContextLineCount": 2,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.statusBar.visible": false,
 }

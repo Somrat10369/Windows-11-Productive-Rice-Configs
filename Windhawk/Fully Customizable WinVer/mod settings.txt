@@ -5,7 +5,7 @@ logo:
   'y': 10
   width: 0
   height: -1
-  path: C:\Users\Md. Nadim Mahmud\Downloads\Programs\MacOS_Dock_TD\MyDockFinder\themes\default\icons\Apple.png
+  path:**icon path**
 startPosition:
   enabled: 1
   center: 1

@@ -6,11 +6,10 @@ This repository contains my personal VS Code settings, keybindings, snippets, an
 
 ## 📂 File Structure Overview
 
-*   `settings.json`: Global preferences, theme settings, and formatting rules.
-*   `keybindings.json`: Custom keyboard shortcuts.
-*   `snippets/`: Custom code expansion shortcuts.
-*   `extensions.txt` / `extensions.json`: List of must-have extensions.
-*   `mcp.json` / `chatLanguageModels.json`: AI and Model Context Protocol configurations.
+* `settings.json`: Global preferences, theme settings, and formatting rules.
+* `keybindings.json`: Custom keyboard shortcuts.
+* `extensions.txt` / `extensions.json`: List of must-have extensions.
+* `chatLanguageModels.json`: AI and Model Context Protocol configurations.
 
 ---
 
