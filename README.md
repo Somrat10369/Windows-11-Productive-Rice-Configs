@@ -28,6 +28,7 @@ A look at the desktop and the applications that make up the setup.
 <details>
 <summary><strong>More screenshots</strong></summary>
 <p align="center">
+<img src="Assets/Fastfetch.png" alt="Fastfetch" width="49%">
 <img src="Assets/Nilesoft_Shell.png" alt="Nilesoft Shell customization" width="49%">
 <img src="Assets/Yazi.png" alt="Yazi file manager" width="49%">
 <img src="Assets/Flow_Launcher.png" alt="Flow Launcher" width="49%">
@@ -37,8 +38,6 @@ A look at the desktop and the applications that make up the setup.
 <img src="Assets/Surge_Cli.png" alt="Surge CLI" width="49%">
 </p>
 </details>
-
-**[Watch the desktop showcase](2026-10-21_15-52-05.mp4)**
 
 ## What this repository is
 
