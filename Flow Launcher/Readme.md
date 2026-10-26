@@ -5,7 +5,7 @@
 
 ### Pywal Theme
 
-> Warning: Pywal integration is WIP. So , for now, it's a Static Theme.
+> ⚠️ Warning: Pywal integration is WIP. So , for now, it's a Static Theme.
 
 The current theme is set to **Pywal**, a dynamic theming system that adapts to your Windows color scheme.
 
