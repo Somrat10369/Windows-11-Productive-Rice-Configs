@@ -20,7 +20,7 @@ general:
   # Commands when config reloads
   config_reload_commands: []
 
-  # Disable focus following cursor (keyboard-driven workflow)
+  # Determines focus following cursor (keyboard-driven workflow)
   focus_follows_cursor: true
 
   # Smooth window animations
@@ -54,7 +54,7 @@ gaps:
     bottom: "8px"
     left: "8px"
 
-  # Larger gaps when only one window exists
+  # Gaps when only one window exists
   single_window_outer_gap:
     top: "8px"
     right: "8px"
@@ -172,7 +172,7 @@ keybindings:
   - commands: ["toggle-minimized"]
     bindings: ["alt+z"]
 
-  # Maximize window
+  # Toggle Fullscreen
   - commands: ["toggle-fullscreen"]
     bindings: ["alt+c"]
 
