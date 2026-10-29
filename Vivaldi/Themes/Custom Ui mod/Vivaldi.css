@@ -1,1 +1,234 @@
-C:/Users/Somrat/.cache/wal/vivaldi
+/* =========================================================
+   VIVALDI — PYWAL DYNAMIC TEMPLATE
+   Windows · Hidden Header / Topbar · Bottom Toolbar Rounded
+   Unclickable Resizable Spacers
+   ========================================================= */
+
+/* 01 — PALETTE & VARIABLES */
+:root {
+  --wal-bg: #0d0d20;
+  --wal-fg: #c2c2c7;
+  --wal-color0: #0d0d20;
+  --wal-color1: #a299ae;
+  --wal-color2: #a299ae;
+  --wal-color3: #bfa8b7;
+  --wal-color4: #bfa8b7;
+  --wal-color5: #dfa6a6;
+  --wal-color6: #dfa6a6;
+  --wal-color7: #c2c2c7;
+  --wal-color8: #5d5d71;
+
+  --ctp-text: #c2c2c7;
+  --ctp-subtext: #c2c2c7;
+  --ctp-surface: #0d0d20;
+  --ctp-mantle: #0d0d20;
+  --ctp-mauve: #bfa8b7;
+
+  --ui-border: #5d5d71;
+  --ui-radius: 8px;
+  --ui-ease: cubic-bezier(.16, 1, .3, 1);
+  --ui-fast: 150ms;
+
+  /* Custom Target Variables */
+  --custom-txt-color: #5d5d71;
+  --custom-tab-fg: #5d5d71;
+  --side-panel-border: #dfa6a6;
+}
+
+/* 02 — NUKE TOP HEADER, TITLEBAR & TOPBAR ENTIRELY */
+#header,
+#titlebar,
+.topbar,
+#main > .toolbar,
+#browser.has-titlebar #header {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+#browser {
+  background: var(--wal-bg) !important;
+  color: var(--custom-txt-color) !important;
+}
+
+/* 03 — UNCLICKABLE FLEXIBLE SPACERS & GAPS */
+.toolbar .toolbar-spacer,
+.toolbar-spacer,
+.toolbar-spacer-flexible,
+.toolbar .button-toolbar[title="Flexible Space"],
+.toolbar .button-toolbar[title="Space"],
+.button-toolbar.toolbar-spacer {
+  pointer-events: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  cursor: default !important;
+  user-select: none !important;
+}
+
+.toolbar .toolbar-spacer:hover,
+.toolbar-spacer:hover,
+.toolbar-spacer-flexible:hover,
+.toolbar .button-toolbar[title="Flexible Space"]:hover,
+.toolbar .button-toolbar[title="Space"]:hover {
+  background: transparent !important;
+  transform: none !important;
+}
+
+/* 04 — TAB BAR CONTAINER (ONLY TOP BORDER, 2X WEIGHT) */
+#footer,
+.toolbar-statusbar,
+.status-toolbar,
+#tabs-container,
+#tabs-subcontainer,
+#tabs-container .resize,
+#tabs-container .tab-strip,
+#tabs-container .toolbar-tabbar {
+  background: var(--wal-bg) !important;
+  color: var(--custom-txt-color) !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 2x Top Border on Tab Bar / Bottom Toolbar */
+#footer,
+.toolbar-statusbar,
+.status-toolbar,
+#tabs-container {
+  border-top: 2px solid var(--wal-color6) !important;
+}
+
+/* 05 — TAB STYLING & CORNER FIX */
+.tab,
+.tab-header,
+.tab-position {
+  border-radius: var(--ui-radius) !important;
+  overflow: hidden !important;
+}
+
+.tab {
+  background-color: color-mix(in srgb, var(--wal-color6) 80%, transparent) !important;
+  color: var(--custom-tab-fg) !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 0 !important;
+  transition: background var(--ui-fast) var(--ui-ease), color var(--ui-fast) var(--ui-ease) !important;
+}
+
+/* Title Text Styling (#0d0d20, JetBrains Mono Semi-Bold) */
+.tab .tab-header,
+.tab .title,
+.tab span {
+  color: var(--wal-bg) !important;
+  font-family: "JetBrains Mono Nerd Font", "JetBrains Mono", monospace !important;
+  font-weight: 600 !important;
+  background: transparent !important;
+}
+
+/* Icons & Favicons Styling (#bfa8b7) */
+.tab .favicon,
+.tab img.favicon,
+.tab svg,
+.tab .close,
+.tab .audio-icon {
+  color: var(--wal-color4) !important;
+  fill: var(--wal-color4) !important;
+  stroke: var(--wal-color4) !important;
+  opacity: 1 !important;
+}
+
+.tab svg,
+.tab .favicon {
+  fill: var(--custom-tab-fg) !important;
+  color: var(--custom-tab-fg) !important;
+  opacity: 1 !important;
+}
+
+.tab:hover {
+  background-color: color-mix(in srgb, var(--wal-color6) 95%, transparent) !important;
+}
+
+/* Active Tab: No Glow, Preserved Rounded Corners */
+.tab.active,
+.tab.active:hover,
+.tab.active:focus {
+  background-color: color-mix(in srgb, var(--wal-color6) 80%, transparent) !important;
+  color: var(--custom-tab-fg) !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  filter: none !important;
+  border-radius: var(--ui-radius) !important;
+}
+
+.tab.active::before,
+.tab.active::after {
+  display: none !important;
+  box-shadow: none !important;
+}
+
+/* Clear Text Selection Highlight inside Tabs */
+.tab ::selection {
+  background: transparent !important;
+  color: var(--custom-tab-fg) !important;
+}
+
+/* 06 — SIDE PANEL STYLING (ONLY LEFT BORDER, 2X WEIGHT) */
+#panels-container,
+#switch,
+.panel-group {
+  background: var(--wal-bg) !important;
+  color: var(--custom-txt-color) !important;
+  border: none !important;
+  border-left: 2px solid var(--side-panel-border) !important;
+}
+
+/* Panel Buttons & Icon Colors */
+#switch button,
+#panels-container button,
+#panels-container .button-toolbar {
+  color: var(--custom-txt-color) !important;
+  fill: var(--custom-txt-color) !important;
+}
+
+/* 07 — ADDRESS BAR STYLING */
+.UrlBar,
+.mainbar,
+#main > .toolbar-mainbar,
+.UrlBar-AddressField,
+.UrlBar-UrlField,
+.UrlBar-SearchField,
+.UrlBar-AddressField input,
+.UrlBar-UrlField input,
+.UrlBar-SearchField input,
+.UrlBar-AddressField .button-toolbar,
+.UrlBar-UrlField .button-toolbar {
+  background: var(--wal-bg) !important;
+  background-color: var(--wal-bg) !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Address Bar Text & Icon Color */
+.UrlBar input,
+.UrlBar span,
+.UrlBar button,
+.UrlBar svg {
+  color: var(--custom-txt-color) !important;
+  fill: var(--custom-txt-color) !important;
+}
+
+/* 08 — SCROLLBAR RESET */
+::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+}
