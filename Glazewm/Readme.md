@@ -1,8 +1,11 @@
 # GlazeWM Configuration
 
 A minimal, ergonomic, and keyboard-driven window manager configuration for Windows 11.
+<div align="center">
 
 ![Glaze WM](../Assets/Glaze_logo.png)
+
+</div>
 
 ## Keybindings
 
@@ -94,3 +97,15 @@ A minimal, ergonomic, and keyboard-driven window manager configuration for Windo
 
 - Try `Alt+Shift+R` manually
 - Check for syntax errors in the configuration file
+
+## ⭐ Show Some Love
+
+If you enjoy this collection, consider leaving a **star**. It helps others discover it and motivates adding more!
+
+<div align="center">
+
+[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-1a1a2e?style=for-the-badge&logo=github&logoColor=f5c518)](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs)
+
+</div>
+
+
