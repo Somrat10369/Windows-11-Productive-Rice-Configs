@@ -38,3 +38,15 @@ if (-not (Test-Path $ompCache) -or ((Get-Item $ompConfig).LastWriteTime -gt (Get
 }
 . $ompCache
 ```
+
+## ⭐ Show Some Love
+
+If you enjoy this collection, consider leaving a **star**. It helps others discover it and motivates adding more!
+
+<div align="center">
+
+[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-1a1a2e?style=for-the-badge&logo=github&logoColor=f5c518)](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs)
+
+</div>
+
+---

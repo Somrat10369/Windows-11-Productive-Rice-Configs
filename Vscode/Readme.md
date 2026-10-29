@@ -1,4 +1,4 @@
-# 🚀 My VS Code Configuration Setup
+#  My VS Code Configuration
 
 This repository contains my personal VS Code settings, keybindings, snippets, and extensions list. Follow the steps below to mirror this exact setup on your machine.
 
@@ -33,3 +33,15 @@ Instead of searching for every extension manually, you can bulk-install them usi
 #### 🍏 macOS / 🐧 Linux:
 ```bash
 cat extensions.txt | xargs -L 1 code --install-extension
+
+## ⭐ Show Some Love
+
+If you enjoy this collection, consider leaving a **star**. It helps others discover it and motivates adding more!
+
+<div align="center">
+
+[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-1a1a2e?style=for-the-badge&logo=github&logoColor=f5c518)](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs)
+
+</div>
+
+

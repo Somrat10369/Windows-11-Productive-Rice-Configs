@@ -38,3 +38,13 @@ If you face any issues with the theme, please open an issue [here](https://githu
 - [Cava](https://github.com/karlstav/cava)
  `winget install -e --id karlstav.cava`
 - [Schemer2](https://github.com/thefryscorer/schemer2): `go install github.com/thefryscorer/schemer2@latest`
+
+## ⭐ Show Some Love
+
+If you enjoy this collection, consider leaving a **star**. It helps others discover it and motivates adding more!
+
+<div align="center">
+
+[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-1a1a2e?style=for-the-badge&logo=github&logoColor=f5c518)](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs)
+
+</div>
