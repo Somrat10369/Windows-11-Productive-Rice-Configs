@@ -1,41 +1,44 @@
 # Windows 11 — Productive Rice & Configs
 
-<p align="center">
-<strong>A personalized Windows setup built around productivity, keyboard-driven workflows, and a cohesive desktop aesthetic.</strong><br>
-Window management, shell customization, terminal tooling, browser styling, and dynamic theming — collected in one place.
-<br><br>
-<a href="https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs">Repository</a> ·
-<a href="#showcase">Showcase</a> ·
-<a href="#configurations">Configurations</a> ·
-<a href="Awesome-Windows-11-Tools.md">Tools collection</a>
-</p>
+<div align = "center">
 
----
+![alt text](Assets/Readme.gif)
+
+</div>
+
+<div align="center">
+
+<strong>A personalized Windows setup built around productivity, keyboard-driven workflows, and a cohesive desktop aesthetic.</strong>
+Window management, shell customization, terminal tooling, browser styling, and dynamic theming — collected in one place.
+ ![Static Badge](https://img.shields.io/badge/Wezterm-Terminal?logo=wezterm&logoColor=indigo&label=Terminal) ![Static Badge](https://img.shields.io/badge/Vivaldi-Browser?logo=vivaldi&logoColor=Red&label=Browser) ![Static Badge](https://img.shields.io/badge/Mit-Licence?logo=googledocs&logoColor=white&label=Licence)
+ ![Static Badge](https://img.shields.io/badge/YASB-Status_Bar?logo=yubico&logoColor=white&label=Status_Bar) ![Static Badge](https://img.shields.io/badge/File%20Pilot-File%20Manager?logo=files&logoColor=Blue&label=File%20Manager)
+
+</div>
 
 ## Showcase
 
 A look at the desktop and the applications that make up the setup.
 
 <p align="center">
-<img src="Assets/Windows.png" alt="Windows desktop" width="49%">
-<img src="Assets/Wallpaper_Selection.png" alt="Wallpaper selection" width="49%">
+<img src="Assets/Windows.png" alt="Windows desktop" >
+<img src="Assets/Wallpaper_Selection.png" alt="Wallpaper selection" >
 </p>
 <p align="center">
-<img src="Vivaldi/Assets/real_landing_page.png" alt="Customized Vivaldi browser" width="49%">
-<img src="Assets/Terminal.png" alt="Terminal setup" width="49%">
+<img src="Vivaldi/Assets/real_landing_page.png" alt="Customized Vivaldi browser" >
+<img src="Assets/Terminal.png" alt="Terminal setup" >
 </p>
 
 <details>
 <summary><strong>More screenshots</strong></summary>
 <p align="center">
-<img src="Assets/Fastfetch.png" alt="Fastfetch" width="49%">
-<img src="Assets/Nilesoft_Shell.png" alt="Nilesoft Shell customization" width="49%">
-<img src="Assets/Yazi.png" alt="Yazi file manager" width="49%">
-<img src="Assets/Flow_Launcher.png" alt="Flow Launcher" width="49%">
-<img src="Assets/Vscode.png" alt="Visual Studio Code" width="49%">
-<img src="Assets/File_Pilot.png" alt="File Pilot" width="49%">
-<img src="Assets/Btop.png" alt="Btop" width="49%">
-<img src="Assets/Surge_Cli.png" alt="Surge CLI" width="49%">
+<img src="Assets/Fastfetch.png" alt="Fastfetch" >
+<img src="Assets/Nilesoft_Shell.png" alt="Nilesoft Shell customization" >
+<img src="Assets/Yazi.png" alt="Yazi file manager" >
+<img src="Assets/Flow_Launcher.png" alt="Flow Launcher" >
+<img src="Assets/Vscode.png" alt="Visual Studio Code" >
+<img src="Assets/File_Pilot.png" alt="File Pilot" >
+<img src="Assets/Btop.png" alt="Btop" >
+<img src="Assets/Surge_Cli.png" alt="Surge CLI" >
 </p>
 </details>
 
@@ -105,9 +108,29 @@ Suggestions and corrections are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) 
 See [LICENCE](LICENCE). Individual applications, themes, fonts, and third-party assets may have their own licenses; check the relevant upstream projects before redistributing them.
 
 ---
+## ⭐ Show Some Love
+
+If you enjoy this collection, consider leaving a **star**. It helps others discover it and motivates adding more!
+
+<div align="center">
+
+[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-1a1a2e?style=for-the-badge&logo=github&logoColor=f5c518)](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs)
+
+</div>
 
 <p align="center">
-If you find something useful, consider giving the repository a star.<br><br>
-<a href="https://star-history.com/#Somrat10369/Windows-11-Productive-Rice-Configs&Date"><img src="https://api.star-history.com/svg?repos=Somrat10369/Windows-11-Productive-Rice-Configs&type=Date" alt="Star History Chart"></a><br><br>
-<a href="#windows-11--productive-rice--configs">Back to top ↑</a>
+
+[![Star History Chart](https://app.repohistory.com/api/svg?repo=Somrat10369/Windows-11-Productive-Rice-Configs&type=Timeline&background=0D1117&color=62f888)](https://app.repohistory.com/star-history)
+
 </p>
+<p align="center">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/light/spaced.svg?sanitize=true" width="100%" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.svg?sanitize=true" width="100%" />
+  </picture>
+</p>
+
+<div align = "right">
+<a href="#windows-11--productive-rice--configs">Back to top ↑</a>
+</div>
