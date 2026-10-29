@@ -16,25 +16,7 @@ You need python and go isntalled:
 ## Setup
 
 * Put the templates in `C:\Users\{Username}\.config\wal\templates\`
-* You could run a PowerShell registry watcher like
-
-```pwsh
-
-  # wal-watch.ps1 — run at startup or in a background window
-$last = (Get-ItemProperty 'HKCU:\Control Panel\Desktop').Wallpaper
-
-while ($true) {
-    Start-Sleep -Seconds 5
-    $current = (Get-ItemProperty 'HKCU:\Control Panel\Desktop').Wallpaper
-    if ($current -and $current -ne $last) {
-        $last = $current
-        Write-Host "Wallpaper changed → $current"
-        Update-WalTheme -Backend schemer2 current wallpaper, regenerates palette + WT colors
-    }
-}
-```
-
-But I prefer using YASBs Run After Hook with the wall paper widget:
+* You could run a PowerShell registry watcher But I prefer using YASBs Run After Hook with the wallpaper widget [with Linking ps1 script](../Yasb/scripts/sync-terminal.ps1):
 
 ```yaml
       run_after:
@@ -47,12 +29,12 @@ But I prefer using YASBs Run After Hook with the wall paper widget:
 flowchart TD
 
 Wallpaper["Choose a wallpaper"]
-Pywal["Pywal Anlyzes the wallpaper and extracts Colors"]
+Pywal["Pywal Analyzes the wallpaper and extracts Colors"]
 Templates["Templates in .config/wal"]
-Replace["Pywla fills color variables in the template"]
+Replace["Pywal fills color variables in the template"]
 Configs["Pywal output the matching Config files at .cache/wal"]
 Link["Link the configs with symlink or a ps1 script"]
-Tada!["Automatic Theme Genaraiton!"]
+Tada["Automatic Theme Genaraiton!"]
 
 
 Wallpaper --> Pywal
@@ -60,7 +42,7 @@ Templates --> Replace
 Pywal --> Configs
 Replace --> Configs
 Configs --> Link
-Link --> Tada!
+Link --> Tada
 ```
 
 The custom templates are in [`Pywal/templates`](../Pywal/templates/).

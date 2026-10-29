@@ -21,7 +21,7 @@ server.
 ## Installl
 
 ```pwsh
-curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+winget install -e Atuinsh.Atuin
 ```
 
 Run setup

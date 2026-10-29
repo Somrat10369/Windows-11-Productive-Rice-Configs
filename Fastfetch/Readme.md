@@ -46,7 +46,9 @@ point fastfetch to your source image/ascii art with the `source` key. You have t
 
 A local IP address (10.x.x.x, 172.x.x.x, 192.168.x.x) has nothing to do with privacy. It only has meaning if you are on the same network, for example, if you connect to the same Wi-Fi network.
 
-Actually, the `Local IP` module is the most useful module for me personally. I (@CarterLi) have several VMs installed to test fastfetch and often need to SSH into them. With fastfetch running on shell startup, I never need to type `ip addr` manually.
+Actually, the `Local IP` module is the most useful module.
+> I (@CarterLi) have several VMs installed to test fastfetch and often need to SSH into them. With fastfetch running on shell startup, I never need to type `ip addr` manually.
+> — [@CarterLi](https://github.com/carterli)
 
 If you really don't like it, you can disable the `Local IP` module in `config.jsonc`.
 

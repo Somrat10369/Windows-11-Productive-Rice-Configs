@@ -21,11 +21,11 @@ A minimal, ergonomic, and keyboard-driven window manager configuration for Windo
 
 ### Window Controls
 
-| Action          | Keybinding |
-| --------------- | ---------- |
-| Minimize window | `Alt+Z`    |
-| Maximize window | `Alt+C`    |
-| Close window    | `Alt+X`    |
+| Action            | Keybinding |
+| ------------------| ---------- |
+| Minimize window   | `Alt+Z`    |
+| Toggle Fullscreen | `Alt+C`    |
+| Close window      | `Alt+X`    |
 
 ### Window Resize
 
@@ -75,8 +75,8 @@ A minimal, ergonomic, and keyboard-driven window manager configuration for Windo
 
 ## Requirements
 
-- [GlazeWM](https:/github.com/glzr-ioglazewm/releaseslatest) `wingetinstall GlazeWM`
-- [GatGWM](https:/github.comDutch-Raptorglazetiler) foralternating tiling.
+- [GlazeWM](https:/github.com/glzr-ioglazewm/releaseslatest) `winget install GlazeWM`
+- [GatGWM](https://github.com/Dutch-Raptor/glazetiler) foralternating tiling.
 - [Taskbar Hide](https://github.comamnweb/thide)
 
 ## Troubleshooting
@@ -107,5 +107,3 @@ If you enjoy this collection, consider leaving a **star**. It helps others disco
 [![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-1a1a2e?style=for-the-badge&logo=github&logoColor=f5c518)](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs)
 
 </div>
-
-

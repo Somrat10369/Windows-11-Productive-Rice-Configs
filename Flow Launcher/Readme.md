@@ -7,7 +7,7 @@
 
 > ⚠️ Warning: Pywal integration is WIP. So , for now, it's a Static Theme.
 
-The current theme is set to **Pywal**, a dynamic theming system that adapts to your Windows color scheme.
+The current theme is set to **Pywal**, a dynamic theming system that derives colors from your wallpaper.
 
 ### Visual Customization
 
@@ -20,6 +20,7 @@ The XAML theme file (`flow_launcher.xaml`) defines custom styles for:
 - Glyph icons for visual identification
 
 **Color Palette:**
+
 - Background: `#0c0c1d` (dark)
 - Text: `#c2c2c6` (light)
 - Accent: `#7D8399` (muted)
@@ -32,8 +33,6 @@ The XAML theme file (`flow_launcher.xaml`) defines custom styles for:
 ### Primary Launch Hotkey
 
 **`Alt + Space`** - Launch Flow Launcher
-
-This is the default Windows search hotkey, making Flow Launcher easily accessible from anywhere in Windows.
 
 ### Navigation Hotkeys
 
@@ -99,10 +98,14 @@ The `CustomBrowserList` defines browser launchers:
 4. **MS Edge** - Microsoft Edge
 5. **Vivaldi** - Vivaldi browser (custom path)
 
+### 3rd Party plugins
+
+You can find some 3rd party plugins i use in [Settings.json](Settings.json) form line 206 and onwards, remove which you don't want from the list.
+
 ### Plugin Settings
 
 - **Auto-update plugins**: Enabled
-- **Python executable**: `C:\Users\{User}\AppData\Local\Programs\Python\Python311\python.exe`
+- **Python executable**: `C:\Users\{Username}\AppData\Local\Programs\Python\Python311\python.exe`
 - **Node executable**: Custom Node.js installation
 - **Log level**: DEBUG
 
@@ -113,4 +116,3 @@ The `CustomBrowserList` defines browser launchers:
 3. **Preview Results**: Press `F1` to see detailed information
 4. **Open Settings**: Press `Ctrl + I` to customize your experience
 5. **Use Plugins**: Type `?` to see available plugins, then use their keywords
-
