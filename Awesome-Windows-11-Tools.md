@@ -59,13 +59,12 @@
 | **YASB Reborn** | Yet Another Status Bar — customizable Windows status bar showing system stats, time, and widgets. | [github.com/amnweb/yasb](https://github.com/amnweb/yasb/releases/latest) |
 | **Tacky Borders** | Adds colored borders to focused/unfocused windows, similar to Hyprland's border feature. | [github.com/lukeyou05/tacky-borders](https://github.com/lukeyou05/tacky-borders/releases/latest) |
 | **Rainmeter** | Desktop customization platform — widgets, system stats, visualizers, and skins on the desktop. | [rainmeter.net](https://www.rainmeter.net/) |
-| **Fluent Flyout** | Replaces the default Windows volume/brightness OSD with a modern Fluent Design popup. | [github.com/ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts/releases/latest) |
+| **Modern Flyout** | Replaces the default Windows volume/brightness OSD with a modern Fluent Design popup. | [github.com/ModernFlyouts-Community/ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts/releases/latest) |
 | **Fluent Weather** | Minimalist Fluent Design weather app for Windows with clean animations and live data. | [apps.microsoft.com](https://apps.microsoft.com/detail/9pfw4gq87nt5) |
 | **Process Explorer** | Sysinternals tool replacing Task Manager with a detailed tree view of processes, handles, and DLLs. | [learn.microsoft.com](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) |
 | **Everything (voidtools)** | Instant file search across the entire filesystem using NTFS indexing. Near-zero delay. | [voidtools.com](https://www.voidtools.com/downloads/) |
 | **Everything Toolbar** | Integrates Everything search directly into the Windows taskbar as a search box. | [github.com/srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar/releases/latest) |
 | **Open RGB** | Cross-platform RGB lighting control for motherboards, GPUs, RAM, and peripherals — brand-agnostic. | [openrgb.org](https://openrgb.org/releases.html) |
-| **Mac OS Dock** | Third-party macOS-style animated application launcher dock for Windows. | [github.com/nicehash/NiceHashQuickMiner](https://github.com/LalithK90/macOS-Dock-Windows) |
 
 ---
 
@@ -166,7 +165,6 @@
 | **Kaggle** | Data science platform — competitions, datasets, notebooks, and tutorials. | [kaggle.com](https://www.kaggle.com/) |
 | **Class Central** | Course aggregator — search and compare free/paid MOOCs from Coursera, edX, MIT, and more. | [classcentral.com](https://www.classcentral.com/) |
 | **Security Blue Team** | E-learning platform for blue team cybersecurity — SOC, threat hunting, DFIR, defensive skills. | [securityblue.team](https://securityblue.team/) |
-| **The Halal Investing Course** | Islamic finance and halal investing course by Canyon Mimbs — Sharia-compliant investing principles. | [halalstocksecrets.com](https://halalstocksecrets.com/) |
 
 ---
 

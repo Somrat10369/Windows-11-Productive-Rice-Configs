@@ -2,12 +2,7 @@
 
 ## Supported Versions
 
-Please see the table below for information regarding which versions of `Win-11-Config` are currently receiving security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| v1.0  | :white_check_mark: |
-
+Please see the table below for information regarding which versions of `Windows-11-Productive-Rice-Configs` are currently receiving security updates.
 
 ## Reporting a Vulnerability
 

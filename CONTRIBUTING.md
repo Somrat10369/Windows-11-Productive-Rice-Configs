@@ -1,6 +1,6 @@
-# Contributing to Win-11-Config
+# Contributing to Windows-11-Productive-Rice-Configs
 
-First off, thank you for considering contributing to this repository! It’s people like you who make the open-source community such an amazing place to learn, inspire, and create. 
+First off, thank you for considering contributing to this repository! It’s people like you who make the open-source community such an amazing place to learn, inspire, and create.
 
 Whether you want to fix a bug, optimize a configuration script, or propose a new feature, all contributions are welcome.
 
@@ -16,7 +16,7 @@ By participating in this project, you agree to maintain a respectful, welcoming,
 
 ### 1. Reporting Bugs
 If you find a bug, configuration issue, or a script that breaks a Windows feature unexpectedly:
-* Check the [Issues](https://github.com/Somrat10369/Win-11-Config/issues) tab to see if it has already been reported.
+* Check the [Issues](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs/issues) tab to see if it has already been reported.
 * If it hasn't, open a new issue. Include details like your Windows 11 Build/Version, what the script did, what you expected to happen, and how to reproduce the issue.
 
 ### 2. Suggesting Features/Tweaks
@@ -29,8 +29,11 @@ Ready to contribute code or documentation changes directly? Follow these steps:
 
 1. **Fork the Repository:** Create your own copy of this repository on GitHub.
 2. **Clone Your Fork:** Clone it to your local machine.
+
    ```bash
-   git clone [https://github.com/Somrat10369/Win-11-Config.git](https://github.com/Somrat10369/Win-11-Config.git)
+   git clone [https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs.git](https://github.com/Somrat10369/Windows-11-Productive-Rice-Configs.git)
+   ```
+
 Create a Branch: Create a branch for your specific change. Keep it descriptive (e.g., fix-taskbar-tweak or add-privacy-script).
 
 Bash
