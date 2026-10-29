@@ -12,12 +12,12 @@
 flowchart TD
 
 Wallpaper["Choose a wallpaper"]
-Pywal["Pywal Anlyzes the wallpaper and extracts Colors"]
+Pywal["Pywal Analyzes the wallpaper and extracts Colors"]
 Templates["Templates in .config/wal"]
-Replace["Pywla fills color variables in the template"]
+Replace["Pywal fills color variables in the template"]
 Configs["Pywal output the matching Config files at .cache/wal"]
 Link["Link the configs with symlink or a ps1 script"]
-Tada!["Automatic Theme Genaraiton!"]
+Tada["Automatic Theme Genaraiton!"]
 
 
 Wallpaper --> Pywal
@@ -25,7 +25,7 @@ Templates --> Replace
 Pywal --> Configs
 Replace --> Configs
 Configs --> Link
-Link --> Tada!
+Link --> Tada
 ```
 
 The custom templates are in [`Pywal/templates`](../Pywal/templates/).
@@ -34,10 +34,11 @@ The custom templates are in [`Pywal/templates`](../Pywal/templates/).
 
 **Back up your existing configuration files before using them, and review each template before copying it into `~/.config/wal/templates/` so you do not overwrite settings you want to keep.**
 
-See the [Pywal setup notes](../Pywal/Readme.md) for the example command and YASB wallpaper hook.
+See the [Pywal setup notes](../Pywal/Readme.md) for the example script and YASB wallpaper hook.
 
 ## Gallery
 
+<p>
 <a href="./001.png"><img src="./001.png" alt="Wallpaper 001" width="280" loading="lazy"></a>
 <a href="./002.png"><img src="./002.png" alt="Wallpaper 002" width="280" loading="lazy"></a>
 <a href="./003.png"><img src="./003.png" alt="Wallpaper 003" width="280" loading="lazy"></a>
