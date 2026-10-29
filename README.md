@@ -56,6 +56,22 @@ This is my personal collection of Windows customization files, application confi
 
 This is a collection of configurations, not a one-click installer. Each application has its own setup requirements, and components can be used independently.
 
+## Choose Your Setup Guide
+
+Like the look of this setup but don't want to spend an entire weekend configuring Windows? Start small and build up only if you want to.
+
+| Guide | Best for | Estimated time | Difficulty |
+|---|---|---:|---|
+| [**Beginner Guide**](guide/beginner.md) | New to ricing; no coding required | **40–55 minutes** | Easy |
+| [**Intermediate Guide**](guide/intermediate.md) | Comfortable following configuration steps and editing simple settings | **2–3 hours** | Moderate |
+| [**Advanced Guide**](guide/advanced.md) | Experienced users who want deeper integration and customization | **4–6+ hours** | Advanced |
+
+The guides are organized around practical steps, starting with high-impact changes. You can skip optional components and use each configuration independently.
+
+**New to ricing?** Start with the [Beginner Guide](guide/beginner.md) for a quick visual refresh, or browse the [guide index](guide/README.md) to choose your path.
+
+*Time estimates are initial planning estimates and have not yet been validated across fresh Windows installations. Actual time depends on downloads, existing settings, and troubleshooting.*
+
 ## Configurations
 
 Browse the directories below for each component's configuration and documentation.
