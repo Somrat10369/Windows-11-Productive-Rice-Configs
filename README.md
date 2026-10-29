@@ -1,4 +1,4 @@
-# Windows 11 — Productive Rice & Configs
+
 
 <div align = "center">
 
@@ -11,8 +11,7 @@
 <strong>A personalized Windows setup built around productivity, keyboard-driven workflows, and a cohesive desktop aesthetic.</strong>
 Window management, shell customization, terminal tooling, browser styling, and dynamic theming — collected in one place.
 
- ![Static Badge](https://img.shields.io/badge/Wezterm-Terminal?logo=wezterm&logoColor=indigo&label=Terminal) ![Static Badge](https://img.shields.io/badge/Vivaldi-Browser?logo=vivaldi&logoColor=Red&label=Browser) ![Static Badge](https://img.shields.io/badge/Mit-Licence?logo=googledocs&logoColor=white&label=Licence)
- ![Static Badge](https://img.shields.io/badge/YASB-Status_Bar?logo=yubico&logoColor=white&label=Status_Bar) ![Static Badge](https://img.shields.io/badge/File%20Pilot-File%20Manager?logo=files&logoColor=Blue&label=File%20Manager)
+ ![Static Badge](https://img.shields.io/badge/Wezterm-Terminal?logo=wezterm&logoColor=indigo&label=Terminal) ![Static Badge](https://img.shields.io/badge/Vivaldi-Browser?logo=vivaldi&logoColor=Red&label=Browser) ![Static Badge](https://img.shields.io/badge/YASB-Status_Bar?logo=yubico&logoColor=white&label=Status_Bar) ![Static Badge](https://img.shields.io/badge/File%20Pilot-File%20Manager?logo=files&logoColor=Blue&label=File%20Manager)
 
 </div>
 
