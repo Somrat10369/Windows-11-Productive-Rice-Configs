@@ -19,11 +19,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Check out wallpaper files only
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
           fetch-depth: 0
+          # The repository contains an unrelated Vivaldi symlink that exceeds
+          # the runner's filesystem limit. Sparse checkout avoids that path.
+          sparse-checkout: |
+            Wallpaper/
+          sparse-checkout-cone-mode: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
