@@ -1,5 +1,3 @@
-
-
 <div align = "center">
 
 ![alt text](Assets/Readme.gif)
@@ -131,6 +129,3 @@ If you enjoy this collection, consider leaving a **star**. It helps others disco
   </picture>
 </p>
 
-<div align = "right">
-<a href="#windows-11--productive-rice--configs">Back to top ↑</a>
-</div>
