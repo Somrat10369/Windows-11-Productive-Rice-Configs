@@ -36,7 +36,7 @@ A customized Vivaldi setup focused on a clean interface, practical navigation, a
 
 <p align="center"><b>Homepage</b></p>
 
-![Sidebar](Assets\landing_page(sidebar).png)
+![Sidebar](Assets/landing_page(sidebar).png)
 
 <p align="center">Sidebar</p>
 
