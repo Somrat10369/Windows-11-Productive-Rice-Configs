@@ -22,7 +22,7 @@ A look at the desktop and the applications that make up the setup.
 <img src="Assets/Wallpaper_Selection.png" alt="Wallpaper selection" >
 </p>
 <p align="center">
-<img src="Vivaldi/Assets/real_landing_page.png" alt="Customized Vivaldi browser" >
+<img src="Assets/Vivaldi.png" alt="Customized Vivaldi browser" >
 <img src="Assets/Terminal.png" alt="Terminal setup" >
 </p>
 
