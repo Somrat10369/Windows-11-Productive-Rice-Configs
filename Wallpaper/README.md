@@ -321,7 +321,7 @@ The gallery uses a fixed three-column table, keeping the display to a maximum of
 </tr>
 <tr>
 <td align="center"><a href="./Wallpapers/163.png"><img src="./Thumbnails/163.webp" alt="Wallpaper 163" width="280" loading="lazy"></a></td>
-<td></td>
+<td align="center"><a href="./Wallpapers/164.png"><img src="./Thumbnails/164.webp" alt="Wallpaper 164" width="280" loading="lazy"></a></td>
 <td></td>
 </tr>
 </tbody>
