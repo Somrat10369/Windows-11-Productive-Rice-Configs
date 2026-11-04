@@ -38,7 +38,7 @@ See the [Pywal setup notes](../Pywal/Readme.md) for the example script and YASB 
 
 ## Collection
 
-- **Wallpapers:** [Browse all 163 wallpapers](./Wallpapers/)
+- **Wallpapers:** [Browse all 150+ wallpapers](./Wallpapers/)
 - **Color palettes:** [Browse all Pywal palette files](./Color%20pallets/)
 
 ## Gallery
